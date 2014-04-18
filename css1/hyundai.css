@@ -1,0 +1,146 @@
+.navigationBar{
+    box-shadow:none;
+}
+.entry_53903 center,
+.entry_53904 center,
+.entry_53905 center,
+.entry_53906 center,
+.entry_53907 center
+{
+    display: block;
+    width: 100%;
+    background: url('/i/promotion/hyundai/bg-2.jpg') #fff no-repeat fixed center -35px;
+    cursor: pointer;
+}
+
+.entry_55118 center,
+.entry_55119 center,
+.entry_55120 center
+{
+    display: block;
+    width: 100%;
+    background: url('/i/promotion/hyundai/bg-4.jpg') #000 no-repeat fixed center top;
+    cursor: pointer;
+}
+
+.entry_53903 .promotion-click-area,
+.entry_53904 .promotion-click-area,
+.entry_53905 .promotion-click-area,
+.entry_53906 .promotion-click-area,
+.entry_53907 .promotion-click-area,
+
+.entry_55118 .promotion-click-area,
+.entry_55119 .promotion-click-area,
+.entry_55120 .promotion-click-area
+{
+    /*position: absolute;*/
+    /*height: 1000px;*/
+    /*width: 100%;*/
+    /*cursor: pointer;*/
+}
+
+.entry_53903 .layout,
+.entry_53904 .layout,
+.entry_53905 .layout,
+.entry_53906 .layout,
+.entry_53907 .layout,
+
+.entry_55118 .layout,
+.entry_55119 .layout,
+.entry_55120 .layout
+{
+    cursor: default;
+}
+
+.entry_53903 .mainLayout,
+.entry_53904 .mainLayout,
+.entry_53905 .mainLayout,
+.entry_53906 .mainLayout,
+.entry_53907 .mainLayout,
+
+.entry_55118 .mainLayout,
+.entry_55119 .mainLayout,
+.entry_55120 .mainLayout
+{
+    padding: 0;
+}
+
+.entry_53903 .entryBody,
+.entry_53904 .entryBody,
+.entry_53905 .entryBody,
+.entry_53906 .entryBody,
+.entry_53907 .entryBody,
+
+.entry_55118 .entryBody,
+.entry_55119 .entryBody,
+.entry_55120 .entryBody
+{
+    border: none;
+    background: #fff;
+    min-height: 500px;
+}
+
+.entry_53903 .mainLayout .right,
+.entry_53904 .mainLayout .right,
+.entry_53905 .mainLayout .right,
+.entry_53906 .mainLayout .right,
+.entry_53907 .mainLayout .right,
+
+.entry_55118 .mainLayout .right,
+.entry_55119 .mainLayout .right,
+.entry_55120 .mainLayout .right,
+
+.entry_53903 .partnersNews,
+.entry_53904 .partnersNews,
+.entry_53905 .partnersNews,
+.entry_53906 .partnersNews,
+.entry_53907 .partnersNews,
+
+.entry_55118 .partnersNews,
+.entry_55119 .partnersNews,
+.entry_55120 .partnersNews
+{
+    display: none;
+}
+
+.entry_53903 .mainLayout .content.right,
+.entry_53904 .mainLayout .content.right,
+.entry_53905 .mainLayout .content.right,
+.entry_53906 .mainLayout .content.right,
+.entry_53907 .mainLayout .content.right,
+
+.entry_55118 .mainLayout .content.right,
+.entry_55119 .mainLayout .content.right,
+.entry_55120 .mainLayout .content.right
+
+{
+    width: 256px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.entry_53903 div.layoutWrapper div.content div.stuff-comments,
+.entry_53904 div.layoutWrapper div.content div.stuff-comments,
+.entry_53905 div.layoutWrapper div.content div.stuff-comments,
+.entry_53906 div.layoutWrapper div.content div.stuff-comments,
+.entry_53907 div.layoutWrapper div.content div.stuff-comments,
+
+.entry_55118 div.layoutWrapper div.content div.stuff-comments,
+.entry_55119 div.layoutWrapper div.content div.stuff-comments,
+.entry_55120 div.layoutWrapper div.content div.stuff-comments
+{
+    margin-bottom: 0px;
+}
+
+.entry_53903 .blockRelatedEntry,
+.entry_53904 .blockRelatedEntry,
+.entry_53905 .blockRelatedEntry,
+.entry_53906 .blockRelatedEntry,
+.entry_53907 .blockRelatedEntry,
+
+.entry_55118 .blockRelatedEntry,
+.entry_55119 .blockRelatedEntry,
+.entry_55120 .blockRelatedEntry
+{
+    background: #fff;
+}

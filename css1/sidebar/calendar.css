@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+.person-calendar {
+    margin: 0 0 10px 0;
+    padding: 0 0 0 0;
+    background: #e8e8e8;
+    
+}
+.person-calendar-month {
+    padding: 18px 14px;
+}
+.title-person-calendar-month {
+    font: bold 14px Arial;
+	text-transform: uppercase;
+}
+
+.calendar-month {
+    margin: 8px 0 0 0;
+    padding: 0 0 0 0;
+    width:100%;
+}
+
+.right .calendar-month {width:212px;}
+
+.calendar-month thead tr td{
+    height:16px;
+    text-align: center;
+    vertical-align: middle;
+    font: normal 10px/16px Arial;
+    color: #333333;
+    border-bottom:1px solid #d0d0d0;
+    border-top:1px solid #d0d0d0;
+
+}
+
+.calendar-month  tr.current td {
+    background: #ffffff;
+}
+.calendar-month tbody tr td{
+    text-align: center;
+    vertical-align: middle;
+    height:21px;
+    font: normal 12px/16px Arial;
+    color: #707070;
+}
+
+.calendar-month  td.event, .calendar-month  tr td.event a {
+    font: bold 12px/16px Arial;
+    color: #000;
+}
+.calendar-month  tr td.current, .calendar-month  tr td.current a {
+    font: bold 12px/16px Arial;
+    color: #FFF;
+    background: #b50005;
+}
+.calendar-month tbody tr td.another-month{
+    font: normal 12px/16px Arial;
+    color: #c2c2c2;
+}
+
+.content-person-calendar {
+    margin:0 ;
+    padding:0;
+}
+.item-content-person-calendar {
+    overflow: hidden;
+    zoom:1;
+    margin: 0 0 0 0;
+    padding: 9px 0 12px 5px;
+
+    border-bottom: 1px solid #d6d6d6 ;
+
+}
+.foto-person-calendar {
+    width:100px;
+    float:left;
+    position: relative;
+}
+.foto-person-calendar img{
+    width: 90px;
+}
+.date-event {
+    width:35px;
+    height:37px;
+    text-align: center;
+    position: absolute;
+    background:#333333;
+    color: #FFF;
+    top:-5px;
+    left:0;
+}
+.person-calendar .content-person-calendar .date-event.current {
+    background:#b50005!important;
+}
+.day-date-event {
+    font:  bold 9px Arial;
+}
+.number-date-event {
+    font: bold 18px Arial;
+}
+.text-person-calendar {
+    margin: 0 10px 0 100px;
+}
+.text-person-calendar .more {
+	font-size:11px;
+}
+.text-person-calendar h4, .text-person-calendar h4 a {
+    font: bold 12px Arial;
+  
+    padding: 0;
+}
+
+.text-person-calendar h4 a:active,
+.text-person-calendar h4 a:hover
+	{color: red;}
+
+.text-person-calendar p {
+    font: normal 11px Arial;
+    color: #333333;
+    margin: 0 0 4px 0;
+    padding: 0 0 0 0;
+}
+.text-person-calendar p.date-time {
+    font: normal 10px Arial;
+    color: #808080;
+    margin: 0;
+    padding: 0;
+}
+.text-person-calendar p.date-time .location {
+    font: bold 10px Arial;
+    color: #08335f;
+    margin: 0;
+    padding: 0;
+}
+.person-calendar a.more-all{
+    font: normal 9px/34px Arial;
+    color:#666;
+    margin: 0 0 0 10px;
+    padding:  0;
+    display:block;
+    text-align:center;
+}
+
+.filter-calendar {
+	display:block;
+	color:#333;
+	font-size: 0.8em;
+	overflow:hidden;
+	padding-bottom:6px;
+
+}
+.filter-calendar div {
+	background:#e8e8e8 url("/i/arrow_cal.gif") no-repeat center bottom;
+	height:7px;
+	width:11px;
+	margin-top:-1px;
+	margin-left:-10%;
+}
+.filter-calendar ul {
+	display:block;
+	overflow:hidden;
+	background:#dbdbdb;
+	border-top: 1px solid #acacac;
+	border-bottom: 1px solid #acacac;
+}
+
+.filter-calendar li {
+	cursor:pointer;
+	float:left;
+	width:32%;
+	font-size: 9px;
+	line-height:1em;
+	padding-top:5px;
+	//padding-bottom:5px;
+}
+.filter-calendar li.last {
+	padding-top:10px;
+}
+.filter-calendar li.last span {
+	margin-top:0px;
+}
+.filter-calendar li span {
+	display:block;
+	width:10px;
+	height:10px;
+    margin: 5px 4px 10px 5px;
+	float:left;
+}
+
+
+.right .filter-calendar li {
+	width:32%;
+	cursor:pointer;
+}
+.right .filter-calendar li.last {
+	width:36%;
+	padding-top:9px;
+}
+.right .filter-calendar li.last span {
+	margin:1px 5px 10px 5px;
+}
+.right .filter-calendar li span {
+	margin:5px 5px 10px 5px;
+}
+
+
+.black, .project .date-event, .eventList .eventDay strong.black {
+	background:#000!important;
+}
+
+.eventList .eventDay strong.blackBlack {
+	background:#000!important;
+}
+
+.purpur, .competitor .date-event, .eventList .eventDay strong.purpur{
+	background:#6a20cf!important;
+}
+
+.eventList .eventDay strong.purpurPurpur {
+	background:#6a20cf!important;
+}
+
+.orange,.invitation .date-event, .eventList .eventDay strong.orange {
+	background:#ffb909!important;
+}
+
+.text-person-calendar  p.backToSixties,
+.text-person-calendar h4.backToSixties
+	{margin-left: -60px;}
+
+
+
+
+.content-person-calendar .icon {
+    background-image: url("/i/new/person/ic.png");
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    font-size: 1px;
+}
+
+.content-person-calendar .arrow {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background-position: -1px -66px;
+    margin: 0 4px 0 4px;
+    top: 2px;
+}

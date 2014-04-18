@@ -1,0 +1,301 @@
+
+/* polls */
+.entryBody .poll.pollBig,
+.col1-person .poll.pollBig {
+    margin-bottom: 30px;
+}
+
+.entryBody .poll.pollLeft,
+.col1-person .poll.pollLeft {
+    border-bottom: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    clear: left;
+    float: left;
+    margin: 0 22px 22px 0;
+    padding: 0 4px 4px 0;
+    position: relative;
+    z-index:999;
+}
+
+.entryBody .poll.pollRight,
+.col1-person .poll.pollRight {
+    border-bottom: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    clear: right;
+    float: right;
+    margin: 0 0 22px 22px;
+    padding: 0 0 4px 4px;
+}
+
+.entryBody .poll.top,
+.col1-person .poll.top {
+    margin-top: 22px;
+}
+
+.entryBody .poll fieldset,
+.entryBody .poll ul,
+.entryBody .poll li,
+.entryBody .poll li input,
+.col1-person .poll fieldset,
+.col1-person .poll ul,
+.col1-person .poll li,
+.col1-person .poll li input {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.entryBody .poll fieldset,
+.col1-person .poll fieldset {
+    width: 242px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.entryBody .poll.pollBig fieldset,
+.col1-person .poll.pollBig fieldset {
+    border: none;
+    width: 520px;
+}
+
+.entryBody .poll.pollLeft fieldset,
+.col1-person .poll.pollLeft fieldset {
+    border-right: 1px solid #ebebeb;
+    padding: 0 24px 20px 0;
+}
+
+.entryBody .poll.pollRight fieldset,
+.col1-person .poll.pollRight fieldset {
+    border-left: 1px solid #ebebeb;
+    padding: 0 0 20px 24px;
+}
+
+.entryBody .poll h2,
+.col1-person .poll h2 {
+    background: url('/i/new/polls/bg-pollTitle.png') no-repeat;
+    font-size: 0;
+    height: 21px;
+    line-height: 0;
+    margin-bottom: 10px;
+    text-indent: -9999px;
+}
+
+.entryBody .poll.result h2,
+.col1-person .poll.result h2 {
+    background-position: 0 -21px;
+}
+
+.entryBody .poll h3,
+.col1-person .poll h3 {
+    color: #333;
+    display: block;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 14px;
+}
+
+.entryBody .poll ul,
+.col1-person .poll ul {
+    margin-bottom: 25px;
+    padding-top: 7px;
+}
+
+.entryBody .poll.result ul,
+.col1-person .poll.result ul {
+    margin-bottom: 16px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.entryBody .poll li,
+.col1-person .poll li {
+    color: #000;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    list-style-image: none;
+    list-style: none;
+    position: relative;
+    text-align: left;
+    width: 242px;
+}
+
+.entryBody .poll.pollBig li,
+.col1-person .poll.pollBig li {
+    width: 520px;
+}
+
+.entryBody .poll.variants li,
+.col1-person .poll.variants li {
+    background-color: transparent !important;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.entryBody .poll.result li,
+.col1-person .poll.result li {
+    background: url('/i/new/polls/bg-pollItem.png') repeat-x;
+    height: 32px;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+.entryBody .poll.result li .filling,
+.col1-person .poll.result li .filling {
+    background: url('/i/new/polls/bg-pollColors.png') repeat-x;
+    display: block;
+    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+
+.entryBody .poll.result.yellow li .filling,
+.col1-person .poll.result.yellow li .filling {
+    background-position: 0 -32px;
+}
+
+.entryBody .poll.result.red li .filling,
+.col1-person .poll.result.red li .filling {
+    background-position: 0 -64px;
+}
+
+.entryBody .poll.result.gray li .filling,
+.col1-person .poll.result.gray li .filling {
+    background-position: 0 -96px;
+}
+
+.entryBody .poll li input,
+.col1-person .poll li input {
+    margin-right: 7px;
+    position: relative;
+    top: 2px;
+}
+
+body.opera .entryBody .poll li input,
+body.opera .col1-person .poll li input {
+    top: 0;
+}
+
+.entryBody .poll.result li label,
+.col1-person .poll.result li label {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 210px;
+}
+
+.entryBody .poll.result.pollBig li label,
+.col1-person .poll.result.pollBig li label {
+    width: 480px;
+}
+
+.entryBody .poll.result li .count,
+.col1-person .poll.result li .count {
+    color: #a1a1a1;
+    font-size: 13px;
+    line-height: 32px;
+    position: absolute;
+    right: 8px;
+}
+
+.entryBody .poll.result li.myVote .count,
+.col1-person .poll.result li.myVote .count {
+    font-weight: bold;
+    color: #000;
+}
+
+.entryBody .poll .buttonsBlock,
+.col1-person .poll .buttonsBlock {
+    line-height: 23px;
+    margin-right: -24px;
+    overflow: hidden;
+    position: relative;
+}
+
+.entryBody .poll .button,
+.col1-person .poll .button {
+    margin-right: 12px;
+    padding-left: 1px;
+}
+
+.entryBody .poll .button,
+.entryBody .poll .button span,
+.col1-person .poll .button,
+.col1-person .poll .button span {
+    float: left;
+    padding-left: 1px;
+    background: url('/i/new/profile/bg-button2.png') no-repeat -299px 0;
+    color: #08335f;
+    cursor: pointer;
+    display: block;
+    height: 22px;
+}
+
+.entryBody .poll .button.blueButton,
+.col1-person .poll .button.blueButton {
+    background-position: -299px -22px;
+}
+
+.entryBody .poll .button span,
+.col1-person .poll .button span {
+    background-position: 100% 0;
+    color: #08335f;
+    float: left;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 0 20px;
+}
+
+.entryBody .poll .button.blueButton span,
+.col1-person .poll .button.blueButton span {
+    background-position: 100% -22px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.entryBody .poll .showResult,
+.col1-person .poll .showResult {
+    color: #08335f;
+    cursor: pointer;
+    float: left;
+    font-size: 11px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+
+.entryBody .poll .allVotes,
+.col1-person .poll .allVotes {
+    font-size: 11px;
+    color: #acacac;
+    padding-right: 7px;
+    text-align: right;
+}
+
+.entryBody .poll.variants li .filling,
+.entryBody .poll.variants li .count,
+.entryBody .poll.variants .pollIconRes,
+.entryBody .poll.variants .showResult span.hide,
+.entryBody .poll.result li input,
+.entryBody .poll.result .button,
+.entryBody .poll.result .pollIcon,
+.entryBody .poll.result .showResult span.show,
+.col1-person .poll.variants li .filling,
+.col1-person .poll.variants li .count,
+.col1-person .poll.variants .pollIconRes,
+.col1-person .poll.variants .showResult span.hide,
+.col1-person .poll.result li input,
+.col1-person .poll.result .button,
+.col1-person .poll.result .pollIcon,
+.col1-person .poll.result .showResult span.show {
+    display: none;
+}
+
+.thnx {
+    margin-bottom:30px;
+}

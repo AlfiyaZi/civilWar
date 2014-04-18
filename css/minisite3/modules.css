@@ -1,0 +1,2800 @@
+/* Modules Components - theme Minisite3 */
+
+/* common */
+body{
+    background:url(../../i/minisite3/bg.gif) #000 repeat-x 0 57px;
+}
+.box{ 
+    background:#fff;
+    border:0; 
+} 
+
+.box__badges{
+    border:0; 
+}
+.box__title{
+    background:#5270bf;
+    padding:0;
+    height:35px;
+    line-height:35px;
+    border:3px solid #abc1fd;
+}
+.box__title>i{
+	background-repeat:no-repeat;
+	}
+.box__title .breadcrumb{
+    color:#fff;
+}
+.box__title ul{
+    margin:0;
+}
+    .box__title ul li a{
+        height:35px;
+        line-height:35px; 
+    }
+    .box__title ul li a:hover{
+        color:#abc1fd;
+        background-color:transparent;
+    }
+    .box__title ul li .is-active,
+    .box__title ul li .is-active:hover{
+        background:#1b2f4f;
+        color:#5675c7;
+    }  
+.load-more{
+    color:#0099ff;
+}
+.box__title__login-user{
+    background:url("../../i/minisite3/3th-photo.png") no-repeat 0 center;
+    color:#fff;
+}
+.link-top{
+    background-color:#5371c1;   
+}
+.link-top:hover{
+    background-color:#7d98df;
+}
+.pagination-number a:hover{
+    background-color:#888;
+}
+
+.ui-datepicker-title{
+   height:34px;
+   line-height:34px;
+}
+.ui-datepicker-header{
+   background-color: #5270BF;
+   border: 3px solid #ABC1FD; 
+}
+.datepicker-triangle{
+    left:-12px;
+}
+.ui-datepicker-calendar .ui-datepicker-today,
+.ui-datepicker-calendar .ui-datepicker-current-day{ 
+   background-color: #5270BF;
+}
+.table-wrapper{
+    background:#fff;
+}
+
+/* button */
+.button,
+.reset-button,
+.view-button,
+.blog-header .blog-button .button,
+.advanced-search__row .button,
+.forum-adv-search__button-holder a{
+    border:3px solid #abc1fd;
+    height: 24px;
+    line-height: 24px;
+    background-color:#5270bf;
+    color:#fff; 
+}
+.button:hover,
+.reset-button:hover,
+.view-button:hover,
+.blog-header .blog-button .button:hover,
+.advanced-search__row .button:hover,
+.forum-adv-search__button-holder a:hover,
+.forum-post-new-thread-btn:hover,
+.forum-admin-add-cat-btn:hover,
+.forum-admin-add-forum-btn:hover,
+.forumHeader .forum-post-new-thread-btn:hover{
+    border:3px solid #1b2f4f;
+    background-color:#1b2f4f;
+    color:#5675c7;
+}
+
+.badge-request__info .inforblock-alt .add-badge--alt:hover,
+.firend-request__info .inforblock-alt .add-friend--alt:hover,
+.firend-request__info .is-my-score .add-my-awards:hover,
+.button--add-blog:hover,
+.button--add-new-article:hover,
+.forum-post-new-thread-btn:hover,
+.forum-admin-add-cat-btn:hover,
+.forum-admin-add-forum-btn:hover,
+.forumHeader .forum-post-new-thread-btn:hover{
+    background-image:url("../../i/minisite3/icon-add-hover.png");   
+    
+}
+.badge-request__info .inforblock-alt .add-badge--alt:hover,
+.firend-request__info .inforblock-alt .add-friend--alt:hover,
+.firend-request__info .is-my-score .add-my-awards:hover {
+    background-color:#1b2f4f;
+    color:#5675c7;
+}
+
+
+.view-tournaments .filter-button,
+.box__badges .filter-title .button,
+.box--forum-page__watch .forum-tab .is-forum-tab-selected,
+.box--forum-page__watch .forum-tab .is-forum-tab-selected:hover,
+.is-current-forum-page,
+.is-current-forum-page:hover,
+.forum-remove-selected-rows,
+.forum-watch-thread-btn,
+.forumHeader .button.float-left,    
+.is-thread-watch,
+.joined-label,
+.is-joined,
+.is-joined:hover,
+.blog-details__filter .button--recent-articles,
+.blog-header .blog-button .is--active,
+.blog-header .button--advanced,
+.l-row--blog .blog-article__button .button--watches,
+.l-row--blog .blog-article__button .is-button--watched,
+.blog-details__filter .is-button--watched,
+.box--blog .box__title .button--remove-selected{
+    background-color:#8cb058;
+    border:3px solid #8cb058;
+    color:#fff;
+    height:24px;
+    line-height:24px;
+}
+
+.forumHeader .button.float-left, 
+.blog-header .button--advanced{
+    height:23px;
+    line-height:23px; 
+}
+
+.view-tournaments .filter-button:hover,
+.box__badges .filter-title .button:hover,
+.forumHeader .button.float-left:hover,
+.blog-details__filter .button--recent-articles:hover,
+.is-thread-watch:hover,
+.forum-watch-thread-btn:hover,
+.forum-remove-selected-rows:hover,
+.blog-details__filter .is-button--watched:hover,
+.l-row--blog .blog-article__button .is-button--watched:hover,
+.l-row--blog .blog-article__button .button--watches:hover,
+.blog-header .button--advanced:hover,
+.blog-header .blog-button .is--active:hover,
+.box--blog .box__title .button--remove-selected:hover{
+    background-color:#444;
+    border:3px solid #444;
+    color:#fff;
+}
+ 
+.view-tournaments .filter-button,
+.box__badges .filter-title .button{
+    background-image:url("../../i/minisite3/icon-filter-open.png");
+} 
+.box--tournaments .is-filter-show .box__title--filter .filter-button,
+.is-filter-show .filter-title .filter-button{
+    background-image:url("../../i/minisite3/icon-filter-close.png"); 
+}
+
+/* popup */
+.popup__title .close-btn{
+    background-position:0 -683px;    
+}
+.popup__title .close-btn:hover{
+    background-position:0 -668px;
+}
+.popup__title-left,
+.popup__title-right,
+.popup__title-mid{
+    background-image:url("../../i/minisite3/popup-title.png")      
+} 
+.uploading__progress{
+    background-color:#5371c1;
+}
+.uploading__process_precent{
+    color:#303030;
+    margin-top:12px;
+}
+
+/* .achievements */
+.filter-leaderboard{
+    background-color:#d2d1d1;
+}
+.search-leaderboard__filter-tab .tab-button{
+    background:#aaa;
+}
+.search-leaderboard__filter-tab .is-tab-selected,
+.search-leaderboard__filter-tab .tab-button:hover{
+    background:#8CB058;
+    color:#fff;
+}
+
+.badge-request__info .badge-request__info-titles,
+.firend-request__info .firend-request__info-titles{
+    border:3px solid #abc1fd;
+    background:url(../../i/minisite3/navi-bg.gif) repeat-x 0 0;
+    height: 34px;
+    line-height: 34px;
+}
+.badge-request__info .badge-request__info-titles,
+.tournaments-popup .firend-request__info-titles{
+    font-family: 'BebasRegular';
+    font-size:18px;
+    font-weight:normal; 
+}
+.datepicker-triangle,
+.firend-triangle,
+.badge-triangle{
+    background:url("../../i/minisite3/calendar-triangle.png") no-repeat 0 0;
+    width:12px;
+}
+.list-leaderboard .current-user{
+    border:1px solid #5371c1;
+}
+.leaderboard__my-place,
+.is-me-rect__b4{
+    background-image:url(../../i/minisite3/icon-my-place.png);
+}
+.is-me-rect__b4{
+    background-color:transparent;
+    border-left:1px solid #5371c1;
+    left:943px;
+    top:-9px;
+    bottom:-5px;
+}
+.is-me-rect__b1,
+.is-me-rect__b2,
+.is-me-rect__b3{
+    background-color:#5371c1    
+}
+.is-me-rect__b1{
+    left:-16px;
+    top:-8px;
+    bottom:-5px; 
+}
+.is-me-rect__b2{
+    left:-16px;
+    top:-8px;
+    right:0;
+}
+.is-me-rect__b3{
+    left:-16px;
+    right:0;
+    bottom:-5px;
+}
+.is-my-prize .box__my-related tr td{
+    padding-top:8px;
+}
+.achievements__my-badges{
+    z-index:2;
+}
+.achievements__my-badges,
+.achievements__my-score, .post--fix{
+    border:0;
+    background-color:#fff;
+}
+.achievements__my-score td{
+    border-left:1px solid #d4d4d4;
+    background-color:#fff;
+}
+.achievements__my-badges .badge-info,
+.achievements__my-score .my-score{
+    background-color:#3f3f3f;
+}
+.achievements__my-score td .score-level{
+    background-color:#0099ff;
+}
+    .achievements__my-score td .score-level div{
+        background-image:url(../../i/minisite3/blue-border.png);
+    }
+.inforblock .level-set .l,
+.inforblock .level-set .r,
+.inforblock .level-set .c,
+.score-table .level-set .l,
+.score-table .level-set .r,
+.score-table .level-set .c{
+    background-image:url(../../i/minisite3/blue-border2.png);
+}
+.box__scores .filter-title,
+.box__badges--alt .filter-title{
+    background:#333;
+    border: 0 none;
+    height: auto;
+}
+.filter-badge dt{
+    background-image:url(../../i/minisite3/icon-mission.png);
+    font-weight:normal;
+}
+.filter-badge dd{
+    color:#222;
+}
+.box__badges .box__my-related{
+    margin:1px;
+}
+.inforblock .overall-text{
+    padding:8px 0; 
+}
+.inforblock .overall-text .red{
+    font-weight:bold;
+}
+.inforblock .level-set,
+.score-table .level-set{
+    display:inline-block;
+    width:26px;
+} 
+.is-my-score .infor-table td{
+    vertical-align:middle;
+    text-align:center;
+}
+
+/* blog */
+.box-blog-article .box__title,
+.box-blog-filter .box__title{
+    line-height:35px;  
+}
+.box-blog-article .box__title .breadcrumb-sub{
+    color:#fff;
+}
+
+
+.box--blog .box__title > strong,
+.box-blog-filter .box__title strong,
+.box--blog-new .box__title strong{
+    line-height:35px;
+}
+.box--blog-related .box__title{
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+}
+.box-blog-article .box__title span,
+.box-blog-filter .box__title span,
+.box--blog .box__title span,
+.box-blog-article .box__title .breadcrumb-sub,
+.box__title strong span,
+.box__title .breadcrumb-sub{
+     background-image: url("../../i/minisite3/icon-breadcrumb.png");
+}
+.box-blog-article .box__title span,
+.box-blog-filter .box__title span,
+.box--blog .box__title span,
+.box-blog-article .box__title .breadcrumb-sub{ 
+    background-position:6px 12px; 
+}
+.box-blog-article .box__title strong,
+.box-blog-article .box__title span{
+    background:none;
+}
+.box--blog .box__title .breadcrumb-text{
+    color:#fff;
+}
+.box-blog-article .box__title .breadcrumb{
+    margin-left:0;
+}
+.js-article-tab__completed span{
+    background-color:#7b7b7b;
+}
+.box--blog-archives .box__title,
+.box--blog-draft .box__title{ 
+    background-position: 8px 8px;
+    background-repeat: no-repeat;  
+}
+
+.box--blog-draft .box__title strong,
+.box--blog-archives .box__title strong,
+.box--blog-related .box__title strong,
+.box--recnet-comment .box__title strong,    
+.box--blog-category .box__title strong{
+    padding-left:42px;
+}
+.add-article__row .add-article__input-hover{
+    border:1px solid #5270bf;
+}
+.blog-header .blog-search .blog-search__icon,
+.view-tournaments .input-wrapper a.icon-search{
+	background-position:0 -158px;
+}
+.view-tournaments .input-wrapper a.icon-search:hover{
+	background-position:0 -187px;
+}
+
+
+.table__remove-link,
+.button--remove-selected,
+.table-wrapper table tr:hover td .table__edit-link,
+.box--blog-draft ul li a.blog-draft__remove,
+.attachments__container table .button--delete,
+.button--delete{ 
+    background-color:#666;
+    border:3px solid #666;
+} 
+.attachments__container table .button--choose-file,
+.l-row--blog .blog-article__button .button--edit,
+.blog-article-preview__title .button--edit{
+    background-color:#666;
+    border:3px solid #666;
+}
+.blog-article-preview__title .button--edit i{
+	left:9px;
+	}
+.table__remove-link:hover,
+.button--remove-selected:hover,
+ .table-wrapper table tr:hover td .table__edit-link:hover,
+.box--blog-draft ul li a.blog-draft__remove:hover,
+.attachments__container table .button--delete:hover,
+.attachments__container table .button--choose-file:hover,
+.l-row--blog .blog-article__button .button--edit:hover,    
+.button--delete:hover,
+.blog-article-preview__title .button--edit:hover{
+    background-color:#9e9e9e;
+    border:3px solid #9e9e9e;
+    color:#fff;
+}
+.button--edit,
+.table__edit-link,
+.forum-post-edit-btn,
+.forum-admin-edit-cat{
+	position:relative;
+	background-image:none;
+}
+
+.table__edit-link i,
+.forum-post-edit-btn i,
+.forum-admin-edit-cat i{
+	position:absolute;
+	top:9px;
+	left:7px;
+	background-position:0 -65px;
+	width:13px;
+	height:13px;
+	display:inline-block;
+	}
+.button--edit i{
+	position:absolute;
+	top:6px;
+	left:20px;
+	background-position:0 -65px;
+	width:13px;
+	height:13px;
+	display:inline-block;
+	}
+.blog-article__button .button--edit i{
+	background-position:0 -119px;
+	}
+
+.blog-article-preview__title .button--edit{
+     background-position: 9px 5px;  
+}
+.blog-article__button .share-button:hover{
+    background-color:#9e9e9e;
+    color:#fff;
+}
+.attachments__container table .button--delete,
+.button--delete{
+     background-position: 10px 7px;
+}
+.box--blog-draft ul li a.blog-draft__remove,
+.box--blog-draft ul li a.blog-draft__remove:hover,
+.table-wrapper table tr:hover td .table__remove-link,
+.table-wrapper table tr:hover td .table__remove-link:hover{
+    border:0;
+}
+.button--add-blog,
+.button--add-new-article{
+    background-position: 8px 9px;
+} 
+.blog-detail__date,
+.blog-article__date,
+.blog-posts__date{
+	background-position:0 -217px;
+}
+.box--comments .box__title strong{
+     background: url("../../i/minisite3/comments-icon.png") no-repeat  left 8px;
+}
+
+.box--blog .box__title .button--remove-selected{
+    margin-top:3px; 
+    background-position:14px 7px;
+}
+.blog-article-preview__title .button--edit,
+.my-watcher{
+    color:#fff;
+} 
+.table-wrapper table tr:hover td .table__edit-link,
+.table-wrapper table tr:hover td .table__view-link{
+    line-height:24px;   
+}
+.post-area{
+    background-color:#d1d1d1;
+}
+    .post-area strong{
+        color:#666;
+        text-shadow:0 1px 0 #EEE;
+    }
+    .post-area .textarea{
+        margin-left:80px;
+        -moz-box-shadow:inset 2px 2px 4px #aaa;
+        -webkit-box-shadow:inset 2px 2px 4px #aaa;
+        box-shadow:inset 2px 2px 4px #aaa;
+        border:0;
+        border-top:1px solid #c0c0c0;
+        border-left:1px solid #c0c0c0;
+    } 
+    .post-area img{
+        height:72px;
+        width:72px;
+    }
+.box--comments .load-more{
+    padding:12px 0;
+}
+
+/* contests */
+.box--contests .view-tournaments .box__title > span,
+.box-contest-details .box__title,
+.l-content .box-contest-details .box__title,
+.box--side-contests .box__title strong{
+     background-image: url("../../i/minisite3/contests-title-icon.png");
+}
+.box--tournaments-detail .box__title strong span,
+.box--tournaments-detail .box__title .breadcrumb{
+    line-height:35px;
+}
+.box__title strong span,
+.box__title .breadcrumb-sub{ 
+    background-position:10px 11px;
+    color:#fff;
+}
+.box--stats .box__title strong,
+.box--games .box__title strong,
+.box--level-played .box__title strong{
+    background-image: url("../../i/minisite3/game-title-icon.png");
+    background-position:0 7px
+}
+
+.box--friends .box__title strong{
+    background-position:6px 5px;
+    background-repeat:no-repeat;
+    padding-left:32px;
+}
+.view-tournaments .box__title > span,
+.my-tournamments .box__title > span{
+    background:url("../../i/minisite3/icon-my-tur.png") no-repeat 13px center transparent;
+    height:35px;
+    line-height:35px;
+    padding-left:45px;
+}
+.hide-detail .box__title > span{
+    background-image:url("../../i/minisite3/icon-my-tur-2.png");
+}
+.view-tournaments .box__title--filter,
+.my-tournamments .box__title--filter{
+    margin-top:3px;   
+}
+.box__title--filter label{
+    margin-top:3px;   
+}
+.box--tournaments .box__title--filter .filter-button{
+    border:0;
+}
+.view-tournaments{
+    margin-top:0;
+}
+.is-div-joined .joined-label{
+    border:0;   
+}
+
+/* forum */
+.forumHeader .button{
+    height:auto;
+    padding:0 5px;
+} 
+.forumHeader .forum-post-new-thread-btn,
+.forum-watch-thread-btn,
+.forumHeader .forum-admin-add-cat-btn,
+.forumHeader .forum-admin-add-forum-btn{
+    background-position: 6px 8px;
+}
+.forum-watch-thread-btn,
+.forumHeader .forum-post-new-thread-btn,
+.forumHeader .forum-admin-add-cat-btn,
+.forumHeader .forum-admin-add-forum-btn,
+.forumHeader .forum-post-new-thread-btn{ 
+    padding:0 7px 0 15px;
+}
+
+
+.box--forum-page .box__title{
+    background-color:#5270BF;
+    line-height:35px;
+}
+.box--forum-thread__attachment-item .forum-delete-file,
+.forum-remove-selected-rows,
+.forum-admin-del-thread{  
+    background-color:#666;
+    border:3px solid #666;
+    background-position:	14px 7px;
+} 
+.forum-admin-del-thread{
+    background-position:	10px 7px; 
+}
+.box--forum-thread__attachment-item .forum-delete-file:hover,
+.forum-remove-selected-rows:hover, 
+.forum-admin-del-thread:hover{
+    background-color:#9e9e9e;
+    border:3px solid #9e9e9e;
+    color:#fff;
+}
+.box--forum-page .box__title .button{
+    margin-top:3px;
+}
+.forum-admin-edit-cat,
+.forum-admin-lock-cat,
+.forum-remove-hovered-row,
+.forum-post-edit-btn,
+.forum-post-submit-btn{
+    background-color:#666;
+    border:0;
+    height:30px;
+    line-height:30px;
+    color:#fff;
+}
+.forum-admin-edit-cat:hover,
+.forum-admin-lock-cat:hover,
+.forum-remove-hovered-row:hover,
+.forum-post-edit-btn:hover,
+.forum-post-submit-btn:hover{
+    background-color:#9e9e9e;
+    border:0;
+    color:#fff;
+}
+.forum-post-edit-btn{ 
+    background-position:8px 8px;
+}
+
+.forum-admin-edit-cat{ 
+    background-position:center center;
+}
+.forum-remove-hovered-row{ 
+    background-position:center center;
+}
+.box--forum-preview-edit .box__title,
+.box--forum__original-post .box__title{
+    padding-left:48px;   
+}
+.content--forum__no-permission .box__title{
+    background-image:none;
+}
+.forum-thread-post-row .forum-thread__attachments .box--forum-thread__attachment-item .forum-delete-file{
+    background-position: 12px 7px;
+}
+.forum-thread-post-row .forum-thread__attachments .box--forum-thread__attachment-item .button,
+.forum-thread-post-row__button-holder .button{
+    background-color: #666666;
+    border: 3px solid #666666;
+}
+.forum-thread-post-row .forum-thread__attachments .box--forum-thread__attachment-item .button:hover,
+.forum-thread-post-row__button-holder .button:hover{
+    background-color:#9e9e9e;
+    color:#fff;
+    border:3px solid #9e9e9e;
+}
+.forum-thread__status-bar .forum-gray-button:hover{
+	background-color: #9e9e9e;
+}
+.forum-filter .forum-pagination a{
+    background-color:#666;
+}
+.forum-filter .forum-pagination a:hover{
+    background-color:#888;
+}
+.popup--uploading-forum-attachment .uploading__progress-bar .uploading__progress{
+    background-color:#5371c1; 
+} 
+.popup--uploading-forum-attachment .upload-process p .uploading__progress-number{
+    color:#303030; 
+}
+
+/* news */
+
+.buttons .like:hover,
+.buttons .tweet:hover,
+.buttons .social:hover{
+	background-color: #9e9e9e;
+}
+
+/* tournaments */
+.box--tournaments-detail .box__title,
+.view-tournaments .box__title > span{
+    background-image:url("../../i/minisite3/icon-tur.png");
+    background-position:10px center;
+    padding-left:45px;
+}
+.my-tournamments{
+    margin-bottom:19px;
+    background:#fff;
+}
+.view-tournaments {
+    background:#fff;
+}
+.box--tournaments{
+    background-color:transparent;
+}
+.tournaments-popup .complete-status{
+    color:#222;
+}
+
+/* jqTransformSelectWrapper */
+.jqTransformSelectWrapper ul .selected,
+.content--forum .jqTransformSelectWrapper ul .selected,
+.my-tournamments .jqTransformSelectWrapper ul li .selected,
+.view-tournaments .jqTransformSelectWrapper ul li .selected{
+    background-color:#adadad;
+    color:#fff;
+}
+.jqTransformSelectWrapper ul a:hover,
+.jqTransformSelectWrapper ul .selected:hover,
+.content--forum .jqTransformSelectWrapper ul a:hover,
+.content--forum .jqTransformSelectWrapper ul .selected:hover,
+.blog-details__filter .select-wrapper .jqTransformSelectWrapper ul li a:hover,
+.blog-details__pagination .select-wrapper--article .jqTransformSelectWrapper ul li a:hover,
+.blog-details__pagination .pagination-total .select-wrapper .jqTransformSelectWrapper ul li a:hover,
+.blog-archives__month-select .select-wrapper .jqTransformSelectWrapper ul li a:hover,
+.advanced-search__row .select-wrapper .jqTransformSelectWrapper ul li a:hover,
+.add-article__row--permission .select-wrapper .jqTransformSelectWrapper ul li a:hover,
+.add-article__row--allow-comments .select-wrapper .jqTransformSelectWrapper ul li a:hover,
+.blog--publish-view .select-wrapper .jqTransformSelectWrapper ul li a:hover,
+.box__title .jqTransformSelectWrapper ul li a:hover{
+    background-color:#5270BF;
+    color:#fff;
+} 
+
+
+
+.box__title ul li a,
+.button--fb,
+.box--player-of-month,
+.month-rank,
+.box--about-game__video-title a,
+.box--user-status,
+.box--play-game__recommended ul li,
+.tbl th,
+.box--game-tabs-area__participants .tbl .points,
+.load-more-participants,
+.box--current-stats{
+    font-size:14px;
+}
+
+.home-gameinfo_right,
+.story-item,
+.box--about-game__brief,
+.box--leaderboard ul li,
+.box--side-contests ul li,
+.box--side-tournaments ul li,
+.box--play-game-tabs,
+.side-tbl,
+.box--recommend-friends,
+.user-stats__pts-unit,
+.user-badge-and-award label,
+.box--side-recent-active-user,
+.box--play-game__awards td a,
+.box--play-game__prizes td a,
+.box--play-game__topten .side-tbl td a{
+    font-size:12px; 
+}
+.box--play-game__awards td,
+.box--play-game__prizes td,    
+.box--play-game__topten .side-tbl td,
+.lv-txt{
+    font-size:11px;
+}
+
+/* Home page */
+.home-gameinfo{
+    text-align:center;
+    padding-top:28px;
+}
+    .home-gameinfo__btn-wrapper{
+        padding-top:30px;
+    }
+        .home-gameinfo__btn-wrapper .button{
+            line-height:38px;
+            height:38px;
+            width:250px;
+            font-size:22px;
+        }
+.home-gameinfo__login{
+    padding:30px 0 48px;
+}
+    .home-gameinfo_right{
+        margin-left:390px;
+        color:#fff;
+        padding-top:18px;
+    }
+    .home-gameinfo__top{
+        overflow:hidden;
+    }
+        .home-gameinfo__title{
+            color:#ffcc00;
+            font-family: 'BebasRegular';
+            font-size:32px;
+            float:left;
+        }
+        .home-gameinfo_fb{
+            float:right;
+            line-height:15px;
+            margin-right:56px;
+        }
+            .home-gameinfo_fb span{
+                padding-left:12px;
+            }
+.button--fb {
+    background: url("../../i/minisite3/icon-like.png") no-repeat 10px center #597FBE;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'BebasRegular';
+    line-height: 30px; 
+    padding-left: 36px;
+    padding-right: 19px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.button--fb:hover{
+    text-decoration:none;
+    background-color:#7d98df;
+}
+.home-gameinfo__info{
+    line-height:18px;
+    padding-top:16px;
+}
+.home-gameinfo__btns{
+    padding:20px 42px 0 0;
+}
+    .home-gameinfo__btns .button-play-now{
+        margin-left:20px;
+        width:118px;
+    }
+    .home-gameinfo__btns .button-info{
+        margin-left:20px;
+        width:72px;
+    }
+
+/*PLayer Of the Month*/
+.box--player-of-month{ 
+    margin-bottom:16px;
+}
+.box--player-of-month .box__title strong {
+	padding-left: 24px;
+}
+.box--player-of-month ul{
+	margin: 0 auto;
+	height: 232px;
+	overflow: hidden;
+	position: absolute;
+}
+.box--player-of-month .jcarousel-container {
+    margin:0 auto;
+    width:140px;
+}
+.box--player-of-month ul li{
+    width: 140px;
+}
+.box--player-of-month ul li img{
+    height:140px;
+    width:140px;
+}
+.jcarousel-clip{
+	overflow: hidden;
+}
+.box--player-of-month .jcarousel-prev, .box--player-of-month .jcarousel-next,
+.box--about-game__video .jcarousel-prev, .box--about-game__video .jcarousel-next,
+.box--about-game__screenshot .jcarousel-prev, .box--about-game__screenshot .jcarousel-next {
+	background-repeat: no-repeat;
+	background-position:0 -184px;
+	position: absolute;
+	top: 90px;
+	display: block;
+	width: 12px;
+	height: 13px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.box--player-of-month .jcarousel-prev,
+.box--about-game__video .jcarousel-prev,
+.box--about-game__screenshot .jcarousel-prev {
+    left: -20px;
+}
+.box--player-of-month .jcarousel-prev{
+    left:-28px;
+}
+.box--player-of-month .jcarousel-next,
+.box--about-game__video .jcarousel-next,
+.box--about-game__screenshot .jcarousel-next {
+	background-position:0 -197px;
+    right: -20px;
+}
+.box--player-of-month .jcarousel-next{
+    right:-28px;
+}
+.month-rank{
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	background: 0 -212px no-repeat;
+	width: 34px;
+	margin: 3px auto;
+	text-align: center;
+    color:#666;
+    font-weight: bold;
+}
+.month-player-link{
+	text-align: center;
+	line-height: 16px;
+	padding-top: 10px;
+}
+.month-player-link a{
+	font-weight: bold;
+}
+.box--player-of-month__pts{
+	text-align: center;
+	line-height: 17px;
+	display: block;
+    color:#4a4848;
+}
+
+/* top stories*/
+.box--stories{
+    margin-bottom:16px;
+}
+.box--stories .box__title strong {
+	padding-left: 24px;
+}
+.story-item{
+	padding: 8px 110px 8px 62px;
+	position: relative;
+	border-top: 1px solid #cccccc;
+	min-height: 34px;
+    color:#191919;
+}
+.story-item__first{
+	border-top-width: 0;
+}
+.story-item__author-pic{
+	position: absolute;
+	top: 8px;
+	left: 11px;
+	width: 36px;
+	height: 34px;
+	display: block;
+}
+.story-item__comment-link{
+	right: 17px;
+	top: 18px;
+	position: absolute;
+	line-height: 16px;
+	display: block;
+	color: #191919;
+}
+.story-item__comment-link:hover{
+	cursor: pointer;
+}
+.box--stories .button-holder{
+	padding: 10px 14px 12px;
+	text-align: right;
+	border-top: 1px solid #ccc;
+}
+.box--stories .button-holder .button{
+	padding: 0 30px;
+}
+.story-item__author{
+	line-height: 14px;
+	font-weight: bold;
+	padding-top: 2px;
+}
+.story-item__brief{
+	line-height: 14px;
+}
+.story-item__pics{
+	padding: 6px 0 0 0;
+}
+.story-item__videos{
+	padding: 10px 0 5px 0;
+}
+.story-item__pics img, .story-item__videos img{
+	border: 1px solid #c4c4c4;
+	margin-right: 6px;
+    padding:3px;
+    border-radius: 2px;
+}
+.story-item__pics img{
+    width:53px;
+    height:39px;
+}
+.story-item__videos img{
+    width:84px;
+    height:56px;
+}
+
+/*about the game*/
+
+.box--about-game__brief{
+	line-height: 17px;
+	padding: 28px 15px 20px 15px;
+    color:#484646;
+}
+.box--about-game .button-holder{
+	height: 34px;
+	margin: 20px 0 0 45px;
+}
+.box--about-game .button-holder .button{
+	width: 140px;
+	margin-right: 18px;
+}
+.box--about-game__video, .box--about-game__screenshot{
+    border-top: 1px solid #ccc;
+}
+.box--about-game__video .block-title, .box--about-game__screenshot .block-title{
+	line-height: 36px;
+	padding: 3px 0 0 15px;
+    color:#171717;
+}
+.box--about-game__video .jcarousel-container{
+    margin:0 auto;
+    width:375px;
+}
+.box--about-game__screenshot .jcarousel-container{
+    margin:0 auto;
+    width:342px;
+}
+.box--about-game__video ul li{
+	margin-right: 14px;
+	width: 180px;
+}
+.box--about-game__video ul li img{
+	height:133px;
+    width:180px;
+}
+.box--about-game__video-title{
+	padding: 13px 0 12px 0;
+	line-height: 16px;
+	text-align: center;
+	overflow: hidden;
+    font-size:10px;
+    color:#343433;
+}
+.box--about-game__video-title a{
+	font-weight: bold;
+	margin-right: 10px; 
+}
+.box--about-game__screenshot ul{
+	height: 97px;
+}
+.box--about-game__screenshot ul li img{
+	display: block;
+	width: 116px;
+	height: 82px;
+	overflow: hidden;
+}
+.box--about-game__video .jcarousel-prev {
+    left: -20px;
+	top: 58px;
+}
+.box--about-game__video .jcarousel-next {
+    right: -20px;
+	top: 58px;
+}
+.box--about-game__screenshot .jcarousel-prev {
+    left: -24px;
+	top: 30px;
+}
+.box--about-game__screenshot .jcarousel-next {
+    right: -24px;
+	top: 30px;
+}
+
+/* .box--user-status */
+.box--user-status{
+    background:#f6f6f6;
+    margin-bottom:16px;
+    color:#333;
+}
+.box--user-status__avatar{
+    background:#5675c7;
+    padding:10px 10px 12px;
+    font-weight:bold;
+}
+    .box--user-status__avatar a{
+        color:#fff;
+        font-size:18px;
+        display:inline-block;
+        padding-top:12px;
+    }
+    .box--user-status__avatar span{
+        display:block;
+        padding-top:4px;
+        font-size:17px;
+    }
+.box--user-status__mata{
+    padding:10px 12px 15px;
+}
+    .box--user-status__mata li{
+        overflow:hidden;
+        padding:2px 0 8px;
+    }
+        .box--user-status__mata li label{
+            font-style:italic;
+            float:left;
+        }
+        .box--user-status__mata li span{
+            float:right;
+            font-weight:bold;
+        }
+        .box--user-status__mata li p{
+            clear:both;
+            padding-top:12px;
+            overflow:hidden;
+        }
+            .box--user-status__mata li p img{
+                height:38px;
+                float:left;
+                margin-right:15px;
+            }
+
+/* homepage leaderboard */
+.box--leaderboard{
+    margin-bottom:16px;
+}
+.box--leaderboard .box__title{
+ position: relative;
+}
+
+.box--leaderboard .box__title a.drop-down-arrow{
+	display: block;
+	height: 22px;
+	width: 22px;
+	overflow: hidden;
+	position: absolute;
+	top: 7px;
+	right: 14px;
+	background: 0 -139px no-repeat;
+}
+.box--leaderboard .box__title a.drop-down-arrow:hover{
+	background-position: 0 -161px;
+}
+.box--leaderboard .box__title ol li a {
+	cursor: pointer;
+}
+.box--leaderboard ul li{
+	padding: 4px 11px 5px 11px;
+	overflow: hidden;
+	line-height: 25px;
+	font-weight: bold;
+    border-top: 1px solid #ccc;
+	vertical-align: bottom;
+}
+.box--leaderboard ul .first{
+    border-top-width: 0;
+}
+.box--leaderboard ul .is-you{
+    border-top: 1px solid #acacab;
+	background-color: #dfdfdd;
+}
+
+.box--leaderboard ul li img{
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin: 0 18px 0 0;
+}
+.box--leaderboard__pts{
+	color: #5f5f5f;
+    font-weight:normal;
+}
+
+/* sidebar contests, sidebar touraments */
+.box--side-contests{
+    margin-bottom:16px;
+}
+.box--side-contests .box__title strong{
+	background-position: 9px center;
+    background-repeat:no-repeat;
+    padding-left: 42px;
+}
+
+.box--side-contests ul li,
+.box--side-tournaments ul li {
+	padding: 11px 11px 9px 74px;
+	overflow: hidden;
+	line-height: 18px;
+    border-top: 1px solid #ccc;
+	position:relative;
+	min-height: 50px;
+    color:#666666;
+}
+.box--side-contests ul .first, .box--side-tournaments ul .first{
+    border-top-width: 0;
+}
+.box--side-contests ul li img, .box--side-tournaments ul li img{
+	position: absolute;
+	top: 11px;
+	left: 11px;
+}
+.box--side-contests ul li .thin, .box--side-tournaments ul li .thin{
+	left: 17px;
+}
+.box--side-contests__title, .box--side-contests__prize,
+.box--side-tournaments__title, .box--side-tournaments__prize{
+	font-weight: bold;
+}
+.box--side-contests__title a,
+.box--side-tournaments__title a{
+	color: #666;
+}
+.box--side-contests__time, .box--side-tournaments__time{
+	line-height: 16px;
+}
+
+/* play game recommended */
+.box--play-game__recommended{
+    margin-bottom:15px;
+}
+.box--play-game__recommended .box__title strong{
+	padding-left: 42px;
+	background: url(../../i/minisite3/game-icon-1.png) 10px center no-repeat;
+}
+.game-ad-pic{
+	height: 400px;
+	position: relative;
+    background:url(../../i/minisite3/puzzle-bg.png) repeat-x 0 0;
+    margin:0 1px 1px;
+    text-align:center;
+}
+.game-ad-pic .button{
+	position: absolute;
+	right: 9px;
+	bottom: 11px;
+	width: 120px;
+}
+    .game-ad-pic img{
+        height:265px;
+        width:347px;
+        margin-top:80px;
+    }
+.box--play-game__recommended ul li{
+	line-height: 42px;
+	overflow: hidden;
+    border-top: 1px solid #ccc;
+	vertical-align: bottom;
+    color:#a7a7a7;
+}
+.box--play-game__recommended ul li label{
+	display: block;
+	width: 200px;
+	margin-left: 18px;
+	font-weight: bold;
+    color:#666666;
+}
+.box--play-game__recommended ul li p{
+	color: #a7a7a7;
+}
+.box--play-game__recommended ul li  .game-status-text{
+	color: #009900;
+	font-weight: bold;
+}
+.box--play-game__recommended ul .button-line{
+	padding: 9px 0 11px 0;
+}
+.box--play-game__recommended ul .button-line .button{
+	margin-top: 5px;
+	width: 120px;
+}
+
+/*play game page tabs*/
+.box--play-game-tabs{
+    color:#333;
+    margin-bottom:14px;
+}
+.tbl th{
+	text-align: center;
+	line-height: 36px;
+	height: 36px;
+    background:#d2d1d1;
+    font-weight:bold;
+}
+.tbl td{
+	text-align: center;
+	line-height: 20px;
+	padding: 12px 0 11px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	vertical-align: middle;
+}
+.tbl .align-left{
+	text-align: left;
+}
+.tbl .first td{
+	border-top-width: 0;
+}
+.box--play-game-tabs .box__title ul li a {
+	padding: 0 10px;
+}
+    .box--play-game-tabs .box__title ul li a span{
+        font-weight:normal;
+    }
+.box--play-game-tabs .box__title ul li .last {
+	padding: 0 13px 0 14px;
+}
+.box--game-tabs-area__howtoplay{
+	padding: 12px 14px 50px 14px;
+	line-height: 18px;
+}
+.box--game-tabs-area__howtoplay p{
+	padding: 0 0 18px 0;
+} 
+.box--game-tabs-area__participants .tbl td{
+	line-height: 34px;
+	padding: 11px 0 13px;
+}
+.box--game-tabs-area__participants .tbl td a{
+	font-weight: bold;
+}
+.box--game-tabs-area__participants .tbl .points{
+    font-family: 'BebasRegular'; 
+    color:#666;
+}
+.lv-txt{
+    font-family: 'BebasRegular';
+    background: no-repeat 0 -369px;
+    height:17px;
+    line-height:16px;
+    width:32px;
+    text-align:center;
+    display:inline-block;
+    font-weight:normal;
+    color:#fff; 
+}
+.load-more-participants{
+	text-align: center;
+	line-height: 42px;
+	color: #279af2;
+}
+.box--game-tabs-area__availablelevels{
+    padding-bottom:43px;
+}
+
+.l-sidebar--play-game .button-holder{
+    padding:10px;
+    text-align:center;
+}
+    .l-sidebar--play-game .button-holder .button{
+         width:120px;
+    }
+
+/*SCORES - TOP 10*/
+.box--play-game__topten{
+    margin-bottom:14px;
+}
+.side-tbl {
+	width: 100%; 
+}
+.side-tbl thead th {
+	background: #d2d1d1;
+	line-height: 28px;
+    height:28px;
+    color: #666;
+    font-weight: bold;
+    text-shadow:0 1px 0 #eee;
+    text-align: center;
+}
+.side-tbl td {
+	min-height: 17px;
+	line-height: 30px;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	vertical-align: middle;
+	text-align: center;
+	color: #adadad;
+}
+.side-tbl .align-left {
+	text-align: left;
+}
+.side-tbl .is-you td{
+	background: #e0e0e0;
+	border-top: 1px solid #9c9c9c;
+}
+.side-tbl .emphase-txt span span{
+	color: #ffffff;
+	padding: 0;
+	font-weight: normal;
+}
+.box--play-game__topten .side-tbl td{
+	font-weight: bold;
+}
+
+/*Paly game sidebar awards box*/
+.box--play-game__awards{
+    margin-bottom:14px;
+}
+.box--play-game__awards td a{
+	font-weight: bold;
+}
+.box--play-game__awards td .award-item{
+	padding-left: 20px;
+	display: inline-block;
+	height:20px;
+	line-height:20px;
+	background: 0 -434px no-repeat;
+}
+
+/*Paly game sidebar prize box*/
+.box--play-game__prizes{
+    margin-bottom:14px;
+}
+.box--play-game__prizes td a{
+	font-weight: bold;
+}
+.box--play-game__prizes td .prize-item{
+	padding-left: 20px;
+	display: inline-block;
+	height:18px;
+	line-height:18px;
+	background:  0 -415px no-repeat;
+}
+
+
+/* RECOMMENDED FRIENDS */ 
+.box--recommend-friends .box__title strong {
+	background-position: 10px 4px;
+    background-repeat:no-repeat;
+	padding-left: 42px;
+}
+.box--recommend-friends ul {
+	overflow: hidden;
+	padding: 10px 0 5px 12px;
+    border-bottom: 1px solid #ccc;
+}
+.box--recommend-friends li {
+    margin: 0 6px 0 0;
+    overflow: hidden;
+    width: 68px;
+}
+.box--recommend-friends li a, .box--recommend-friends li img {
+	display: block;
+}
+.box--recommend-friends li a span {
+	display: block;
+	line-height: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*Your current states*/
+.box--current-stats{
+    margin-bottom:14px;
+    padding-bottom:4px;
+}
+.user-stats-pri {
+	padding: 10px 6px 10px 113px;
+	position: relative;
+	min-height: 76px;
+}
+.user-stats-pri img{
+	position: absolute;
+	top: 10px;
+	left: 6px;
+	width: 101px;
+	height: 76px;
+	display: block;
+}
+.user-stats-pri a{
+	line-height: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.user-stats__pts{
+    font-family: 'BebasRegular';
+	line-height: 30px;
+    color:#666;
+    height: 34px;
+	display: block;
+	overflow: hidden;
+    font-size:30px;
+}
+.user-stats__pts-unit{
+	margin-left: 3px;
+}
+.user-stats__lv{
+	padding-top: 2px;
+}
+.user-stats-detail {
+	border-top: 1px solid #ccc;
+}
+.user-stats-detail li {
+	position:relative;
+	padding-top: 6px;
+	padding-bottom: 3px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+.user-stats-detail .user-stats__rank i{
+	position:absolute;
+	background-position:0 -181px;
+	left:8px;
+	top:7px;
+	width:18px;
+	height:16px;
+	}
+.user-stats-detail .user-stats__played-time i{
+	position:absolute;
+	background-position:0 -199px;
+	left:7px;
+	top:2px;
+	width:18px;
+	height:24px;
+	}
+.user-stats-detail .user-stats__last-played i{
+	position:absolute;
+	background-position:0 -224px;
+	left:6px;
+	top:7px;
+	width:21px;
+	height:18px;
+	}
+.user-stats-detail li label{
+	padding-top: 2px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #666666;
+	width: 93px;
+	display: block;
+}
+.user-stats-detail .user-stats__rank{
+	padding-left: 32px;
+}
+.user-stats-detail .user-stats__played-time{
+	padding-left: 32px;
+	padding-bottom: 2px;
+}
+.user-stats-detail .user-stats__last-played{
+	padding-left: 32px;
+}
+.user-stats-detail li p{
+	line-height: 19px;
+	color: #a7a7a7;
+}
+.user-badge-and-award label{
+	display: block;
+	float: left;
+	width: 119px;
+	height: 26px;
+	line-height: 26px;
+	text-indent: 8px;
+	color: #666;
+    text-shadow:0 1px 0 #eee;
+	font-weight: bold;
+    background:#d2d1d1;
+}
+.user-stats__latest-badges-label{
+	border-right: 1px solid #cfcfcf;
+}
+.user-stats__latest-awards-label{
+	border-left: 1px solid #e2e1e1;
+}
+.user-badge-and-award ul{
+	display: block;
+	float: left;
+	width: 116px;
+}
+.user-stats__latest-badges{
+	padding: 2px 0 0 3px;
+	border-right: 1px solid #cfcfcf;
+}
+.user-stats__latest-awards{
+	padding: 2px 0 0 4px;
+}
+.user-badge-and-award ul li{
+	display: block;
+	width: 35px;
+	height: 29px;
+	overflow: hidden;
+}
+.user-stats__latest-badges li a{
+	background-repeat: no-repeat;
+	display:inline-block;
+}
+.user-stats__badge1{
+	width:20px;
+	height:19px;
+	position:relative;
+	top:4px;
+	left:7px;
+	background-position: 0 -305px;
+}
+.user-stats__badge2{
+	background-position: 0 -325px;
+	width:20px;
+	height:20px;
+	position:relative;
+	top:4px;
+	left:7px;
+}
+.user-stats__badge3{
+	width:16px;
+	height:20px;
+	position:relative;
+	top:4px;
+	left:9px;
+	background-position: 0 -347px;
+}
+.user-badge-and-award ul li{
+	float:left;
+}
+.user-stats__latest-awards li a{
+	background-repeat: no-repeat;
+	display:inline-block;
+}
+.user-stats__award1{
+	width:15px;
+	height:21px;
+	position:relative;
+	top:4px;
+	left:10px;
+	background-position: 0 -242px;
+}
+.user-stats__award2{
+	width:20px;
+	height:20px;
+	position:relative;
+	top:5px;
+	left:9px;
+	background-position: 0 -263px;
+}
+.user-stats__award3{
+	width:20px;
+	height:20px;
+	position:relative;
+	top:5px;
+	left:9px;
+	background-position: 0 -284px;
+}
+/*recent activity users sidebar*/
+.box--side-recent-active-user{
+    color:#191919;
+    margin-bottom:14px;
+}
+.box--side-recent-active-user .box__title strong{
+	padding-left: 36px; 
+	background-position: 10px 4px;
+    background-repeat:no-repeat;
+}
+.box--side-recent-active-user ul li{
+	position: relative;
+	padding: 11px 55px 10px 56px;
+    border-bottom: 1px solid #ccc;
+}
+.box--side-recent-active-user ul li img{
+	position: absolute;
+	top: 11px;
+	left: 11px;
+    height:34px;
+    width:36px;
+}
+.box--side-recent-active-user ul li .lv-txt{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+.box--side-recent-active-user ul li .box--recent-active-user__user-link{
+	line-height: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.box--side-recent-active-user ul li .box--recent-active-user__time{
+	line-height: 18px;
+}
+
+
+
+
+
+.box--forum-page .box__title>i,
+.box--forum-page strong span i,
+.box--forum-page .breadcrumb-sub i,
+.search-forum .icon-forum-search,
+.jqTransformRadio,
+.table__checkbox-column .jqTransformCheckbox,
+.chkbox,
+.is-checked,
+.jqTransformSelectWrapper .jqTransformSelectOpen,
+.forum-adv-search .jqTransformSelectWrapper .jqTransformSelectOpen,
+.forum-thread-post-row .forum-thread-post-row__post-attachment label,
+.forum-more-attachment-button-holder a,
+.forum-filter .forum-pagination i,
+.forum-gray-button i,
+.forum-watch-thread-btn i,
+.is-private-forum i, 
+.is-private-thread i,
+.forum-remove-selected-rows i,
+.button--edit i,
+.table__edit-link i,
+.forum-post-edit-btn i,
+.forum-admin-edit-cat i,
+
+.badge-request__info .inforblock-alt .add-badge--alt i,
+.firend-request__info .inforblock-alt .add-friend--alt i,
+.firend-request__info .is-my-score .add-my-awards i,
+.button--add-blog i,
+.button--add-new-article i,
+.forum-watch-thread-btn i,
+.forumHeader .forum-post-new-thread-btn i,
+.forumHeader .forum-admin-add-cat-btn i,
+.forumHeader .forum-admin-add-forum-btn i,
+.forumHeader .forum-post-new-thread-btn i,
+.forum-admin-add-cat-btn.is-current-forum-page:hover i,
+.forum-admin-add-forum-btn.is-current-forum-page:hover i,
+.forum-admin-lock-cat i,
+
+.table__remove-link i,
+.button--remove-selected i,
+ .table-wrapper table tr:hover td .table__edit-link i,
+.attachments__container table .button--delete i,
+.button--delete i,
+.box--forum-thread__attachment-item .forum-delete-file i,
+.forum-admin-del-thread i,
+.forum-remove-hovered-row i,
+.attchments__more-files
+{
+    background-repeat: no-repeat;
+	background-image:url(../../i/minisite3/forum-css-sprite.png);
+	}
+	
+.table__remove-link,
+.button--remove-selected,
+ .table-wrapper table tr:hover td .table__edit-link,
+.box--blog-draft ul li a.blog-draft__remove,
+.attachments__container table .button--delete,
+.button--delete,
+.box--forum-thread__attachment-item .forum-delete-file,
+.forum-admin-del-thread,
+.forum-remove-hovered-row{
+	background-image:none;
+position:relative;
+	}	
+
+.forum-admin-lock-cat{ 
+	background-image:none;
+position:relative;
+}
+.forum-admin-lock-cat i{
+		position:absolute;
+		top:7px;
+		left:7px;
+		display:inline-block;
+		background-position: 0 -29px;
+		width:14px;
+		height:17px;
+	}
+.is-forum-lock-by-admin i{
+		position:absolute;
+		top:7px;
+		left:3px;
+		display:inline-block;
+		background-position: 0 -47px;
+		width:20px;
+		height:17px;
+	}
+.badge-request__info .inforblock-alt .add-badge--alt,
+.firend-request__info .inforblock-alt .add-friend--alt,
+.firend-request__info .is-my-score .add-my-awards,
+.button--add-blog,
+.button--add-new-article,
+.forum-watch-thread-btn,
+.forumHeader .forum-post-new-thread-btn,
+.forumHeader .forum-admin-add-cat-btn,
+.forumHeader .forum-admin-add-forum-btn,
+.forumHeader .forum-post-new-thread-btn,
+.forum-admin-add-cat-btn.is-current-forum-page:hover,
+.forum-admin-add-forum-btn.is-current-forum-page:hover{
+	background-image:none;
+	position:relative;
+	}
+
+.forum-remove-selected-rows{
+	background-image:none;
+	position:relative;
+	}
+	
+	.forum-remove-selected-rows i{
+		position:absolute;
+		top:7px;
+		left:14px;
+		display:inline-block;
+		background-position: 0 -95px;
+		width:11px;
+		height:11px;
+		}
+	.table__remove-link i,
+.button--remove-selected i,
+ .table-wrapper table tr:hover td .table__edit-link i,
+.attachments__container table .button--delete i,
+.button--delete i,
+.box--forum-thread__attachment-item .forum-delete-file i,
+
+.forum-remove-hovered-row i{
+		position:absolute;
+		top:9px;
+		left:9px;
+		display:inline-block;
+		background-position: 0 -95px;
+		width:11px;
+		height:11px;
+	}
+
+.forum-admin-del-thread i{
+		position:absolute;
+		top:7px;
+		left:9px;
+		display:inline-block;
+		background-position: 0 -95px;
+		width:11px;
+		height:11px;
+	}	
+
+.forumHeader .forum-post-new-thread-btn:hover i,
+.forumHeader .forum-admin-add-cat-btn:hover i,
+.forumHeader .forum-admin-add-forum-btn:hover i,
+.forumHeader .forum-post-new-thread-btn:hover i
+{
+		background-position: 0 -461px;
+	}	
+.badge-request__info .inforblock-alt .add-badge--alt i,
+.firend-request__info .inforblock-alt .add-friend--alt i,
+.firend-request__info .is-my-score .add-my-awards i,
+.button--add-blog i,
+.button--add-new-article i,
+.forum-watch-thread-btn i,
+.forumHeader .forum-post-new-thread-btn i,
+.forumHeader .forum-admin-add-cat-btn i,
+.forumHeader .forum-admin-add-forum-btn i,
+.forumHeader .forum-post-new-thread-btn i,
+.forum-admin-add-cat-btn.is-current-forum-page:hover i,
+.forum-admin-add-forum-btn.is-current-forum-page:hover i{
+		position:absolute;
+		top:9px;
+		left:6px;
+		display:inline-block;
+		background-position: 0 -109px;
+		width:7px;
+		height:7px;
+	}
+.is-thread-watch,
+.is-thread-watch:hover{
+    padding-left:24px;
+}
+.is-thread-watch i,
+.is-thread-watch:hover i{
+    position: absolute;
+    display: inline-block;
+		background-position: 0 -336px;
+    width: 14px;
+    left: 5px;
+    top: 7px;
+    height: 11px;
+
+}
+
+.forum-thread-post-row .forum-thread-post-row__post-attachment label{
+	height:18px;
+	line-height:18px;
+	background-position:0 -176px;
+	}
+.search-forum .icon-forum-search{
+	background-position:0 -117px;
+	}
+.search-forum .icon-forum-search:hover{
+	background-position:0 -146px;
+	}
+.chkbox{
+	background-position:0 -390px;
+	}	
+.is-checked{
+	background-position:0 -410px;
+	}
+.forum-adv-search .jqTransformSelectWrapper .jqTransformSelectOpen,
+.jqTransformSelectWrapper .jqTransformSelectOpen{
+	background-position:0 -431px;
+	}
+.jqTransformRadio{
+	background-position:0 -348px;
+	}
+.jqTransformRadioWrapper a.jqTransformChecked{
+	background-position:0 -368px;
+	}
+.box--forum-page .box__title{
+	background-image:none;
+	padding-left:10px;
+	}
+	.box--forum-page .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--forum-page .box__title>i{
+		background-position:0 0;
+    background-repeat:no-repeat;
+		float:left;
+		width:27px;
+		height:28px;
+		display:inline-block;
+		position:relative;
+		top:5px;
+		margin-right:9px;
+		}
+.box--forum-page strong span,
+.box--forum-page .breadcrumb-sub{
+	padding-left:10px;
+	background-image:none;
+	}
+.box--forum-page strong span i,
+.box--forum-page .breadcrumb-sub i{
+		background-position:0 -79px;
+    background-repeat:no-repeat;
+		float:left;
+		width:13px;
+		height:15px;
+		display:inline-block;
+		position:relative;
+		top:11px;
+		margin-right:11px;
+	}
+
+.forum-gray-button{
+    position: relative;
+
+}
+.forum-gray-button i{
+    position: absolute;
+    display: inline-block;
+}
+
+
+/*blog css*/
+.blog-header .blog-search .blog-search__icon,
+.view-tournaments .input-wrapper a.icon-search,
+.box--blog .box__title span i,
+.box-blog-article .box__title span i,
+.box-blog-filter .box__title span i,
+.box-blog-article .box__title .breadcrumb i,
+.box-blog-filter .box__title .breadcrumb i,
+.box-blog-article .box__title .breadcrumb-sub i,
+.box-blog-filter .box__title .breadcrumb-sub i,
+.box--news-category .box__title>i,
+.box--blog-archives .box__title>i,
+.box--blog-draft .box__title>i,
+.box--blog-category .box__title>i,
+.box--blog .box__title > i,
+.box-blog-article .box__title > i,
+.box-blog-filter .box__title > i,
+.box--blog-new .box__title > i,
+.box--blog-related .box__title >i,
+.box--recnet-comment .box__title>i,
+.blog-article__button .button--edit i,
+.blog-detail__date,
+.blog-article__date,
+.blog-posts__date,
+.l-blog-article .box--comments .box__title>i,
+.pagination-number .pagination-number__prev,
+.pagination-number .pagination-number__next,
+.link-top i,
+.l-content--blog .jqTransformSelectWrapper .jqTransformSelectOpen,
+.blog-detail .jqTransformSelectWrapper .jqTransformSelectOpen,
+.blog-details__pagination .jqTransformSelectWrapper .jqTransformSelectOpen,
+.blog-archives__month-select .jqTransformSelectWrapper .jqTransformSelectOpen,
+.blog-detail__article  .blog-article__tag dt,
+.l-row--blog .blog-article__tag dt,
+.blog-posts__title-group  .blog-posts__tag dt,
+.add-article__row .add-article__infor,
+.js-article-tab__completed span>a i,
+.l-content--blog .attchments__more-files,
+.blog-article-preview__title .button--edit .table__checkbox-column .jqTransformCheckbox,
+.my-watcher .table__checkbox-column .jqTransformCheckbox,
+.my-watcher .table__checkbox-column .jqTransformChecked,
+.blog-article-preview__title .button--edit .table__checkbox-column .jqTransformChecked,
+.blog-article__button .button--like i,
+.blog-article__button .button--twitter i,
+.blog-article__button .button--comments i,
+.tournaments-details__button .print-btn,
+.news-details__button .print-btn,
+.link-print,
+.link-edit,
+.news-comment .content .button-holder .reply,
+.news-comment .content .button-holder .like,
+.popup--error .popup__title i,
+.popup__title .close-btn,
+.popup--error .popup__content-mid dd,
+.is-button--watched i,
+.my-watcher .table-wrapper table tr:hover td .table__edit-link i,
+.my-watcher .table__remove-link i,
+.box--blog .button--pipeline i,
+.box--blog-draft ul li a.blog-draft__remove i,
+.my-watcher .button--remove-selected i,
+.blog-header .button--add-new-article i,
+.attachments__container table .button--delete i, .button--delete i{
+    background-repeat: no-repeat;
+	background-image:url(../../i/minisite3/blog-css-sprite.png);
+	}
+.attachments__container table .button--delete,
+.add-article__button .button--delete,{
+	position:relative;
+	}
+.attachments__container table .button--delete i,
+.add-article__button .button--delete i{
+	height:11px;
+	display:inline-block;
+	width:11px;
+	float:left;
+	top:7px;
+	position:absolute;
+	background-position:0 -756px;
+	}
+
+
+		.box-blog-article .box__title span,
+		.box-blog-filter .box__title span,
+		.box-blog-article .box__title .breadcrumb,
+		.box-blog-filter .box__title .breadcrumb,
+		.box-blog-article .box__title .breadcrumb-sub,
+		.box-blog-filter .box__title .breadcrumb-sub{
+			padding-left:10px;
+			}
+		.box--blog .box__title span i,	
+		.box-blog-article .box__title span i,
+		.box-blog-filter .box__title span i,
+		.box-blog-article .box__title .breadcrumb i,
+		.box-blog-filter .box__title .breadcrumb i,
+		.box-blog-article .box__title .breadcrumb-sub i,
+		.box-blog-filter .box__title .breadcrumb-sub i{
+			background-position:0 -133px;
+			background-repeat:no-repeat;
+			float:left;
+			width:13px;
+			height:15px;
+			display:inline-block;
+			position:relative;
+			top:11px;
+			margin-right:11px;
+			}
+			
+
+.box--news-category .box__title,
+.box--blog-archives .box__title,
+.box--blog-draft .box__title{
+	background-image:none;
+	padding-left:8px;
+	}		
+.box--news-category .box__title strong,
+.box--blog-archives .box__title strong,
+.box--blog-draft .box__title strong{
+	padding-left:0;
+	background-image:none;
+	}	
+.box--news-category .box__title>i,
+.box--blog-archives .box__title>i,
+.box--blog-draft .box__title>i{
+		background-position:0 -48px;
+    background-repeat:no-repeat;
+		float:left;
+		width:29px;
+		height:24px;
+		display:inline-block;
+		position:relative;
+		top:7px;
+		margin-right:5px;
+	}
+.box--blog-category .box__title {
+	background-image:none;
+	padding-left:8px;
+}
+	.box--blog-category .box__title strong{
+		padding-left:0;
+		background-image:none;
+		
+		}
+		.box--blog-category .box__title>i{
+			background-position:0 -98px;
+			background-repeat:no-repeat;
+			float:left;
+			width:27px;
+			height:19px;
+			display:inline-block;
+			position:relative;
+			top:9px;
+			margin-right:7px;
+			}
+.box--recnet-comment .box__title{
+	background-image:none;
+	padding-left:8px;
+}
+.box--recnet-comment .box__title strong{
+		padding-left:0;
+		background-image:none;
+	}
+	.box--recnet-comment .box__title>i{
+			background-position:0 -71px;
+			background-repeat:no-repeat;
+			float:left;
+			width:30px;
+			height:26px;
+			display:inline-block;
+			position:relative;
+			top:7px;
+			margin-right:4px;
+		}
+		
+.box--blog .box__title,
+.box-blog-article .box__title,
+.box-blog-filter .box__title,
+.box--blog-new .box__title,
+.box--blog-related .box__title{
+	background-image:none;
+	padding-left:8px;
+}
+.box--blog .box__title > strong,
+.box-blog-article .box__title strong,
+.box-blog-filter .box__title strong,
+.box--blog-new .box__title strong,
+.box--blog-related .box__title strong{
+		padding-left:0;
+		background-image:none;
+}
+.box--blog .box__title > i,
+.box-blog-article .box__title > i,
+.box-blog-filter .box__title > i,
+.box--blog-new .box__title > i,
+.box--blog-related .box__title >i{
+			background-position:0 -21px;
+			background-repeat:no-repeat;
+			float:left;
+			width:25px;
+			height:26px;
+			display:inline-block;
+			position:relative;
+			top:5px;
+			margin-right:9px;
+}
+.l-blog-article .box--comments .box__title{
+	background-image:none;
+	padding-left:9px;
+	}
+.l-blog-article .box--comments .box__title strong{
+		padding-left:0;
+		background-image:none;
+	}
+.l-blog-article .box--comments .box__title>i{
+			background-position:0 0;
+			background-repeat:no-repeat;
+			float:left;
+			width:27px;
+			height:21px;
+			display:inline-block;
+			position:relative;
+			top:8px;
+			margin-right:9px;
+	}
+.blog-detail .jqTransformSelectWrapper .jqTransformSelectOpen,
+.blog-details__pagination .jqTransformSelectWrapper .jqTransformSelectOpen,
+.blog-archives__month-select .jqTransformSelectWrapper .jqTransformSelectOpen,
+.l-content--blog .jqTransformSelectWrapper .jqTransformSelectOpen{
+	background-position:0 -493px;
+	}
+
+.blog-article-preview__title .button--edit .table__checkbox-column .jqTransformCheckbox,
+.my-watcher .table__checkbox-column .jqTransformCheckbox{
+	background-position:0 -452px;
+	}
+.my-watcher .table__checkbox-column .jqTransformChecked,
+.blog-article-preview__title .button--edit .table__checkbox-column .jqTransformChecked{
+	background-position:0 -472px;
+	}
+	
+.my-watcher .table-wrapper table tr:hover td .table__edit-link i,
+.my-watcher .table__remove-link i{
+	top:7px;
+	left:7px;
+	background-position:0 -756px;
+	
+		position:absolute;
+		display:inline-block;
+		width:11px;
+		height:11px;
+	}
+.my-watcher .table__remove-link i,
+.box--blog-draft ul li a.blog-draft__remove i{
+	top:9px;
+	left:9px;
+	background-position:0 -756px;
+	
+		position:absolute;
+		display:inline-block;
+		width:11px;
+		height:11px;
+	}
+.box--blog .button--pipeline i,
+.my-watcher .button--remove-selected i{
+	background-position:0 -756px;
+		position:absolute;
+		display:inline-block;
+		width:11px;
+		height:11px;
+		top:7px;
+		left:14px;
+	}
+.popup--error .popup__title .popup__title-mid{
+	padding-left:0;
+	}
+	.popup--error .popup__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.popup--error .popup__title i{
+			background-position:0 -523px;
+			background-repeat:no-repeat;
+			float:left;
+			width:39px;
+			height:27px;
+			display:inline-block;
+			position:relative;
+			top:7px;
+			margin-right:11px;
+		}
+.blog-header .button--add-new-article{
+	background-image:none;
+	}
+.blog-header .button--add-new-article i{
+		position:absolute;
+		top:9px;
+		left:6px;
+		display:inline-block;
+		background-position: 0 -150px;
+		width:7px;
+		height:7px;
+	}
+.blog-header .button--add-new-article:hover i{
+		background-position: 0 -768px;
+	}
+
+
+/*home css*/
+.button--fb i,
+.box--player-of-month .jcarousel-prev, .box--player-of-month .jcarousel-next,
+.box--about-game__video .jcarousel-prev, .box--about-game__video .jcarousel-next,
+.box--about-game__screenshot .jcarousel-prev, .box--about-game__screenshot .jcarousel-next,
+.box--news .box__title>i,
+.box--about-game .box__title>i,
+.box--leaderboard .box__title>i,
+.box--play-game__topten .box__title>i,
+.box--leaderboard .box__title a.drop-down-arrow,
+.box--side-contests .box__title>i,
+.box--side-tournaments .box__title>i,
+.month-rank,
+.asset3,
+.asset4,
+.asset6,
+.asset5 {
+	background-image:url(../../i/minisite3/homepage-css-sprite.png);
+	}
+	
+.button--fb {
+    background:#597FBE;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'BebasRegular';
+    line-height: 30px; 
+    padding-left: 10px;
+    padding-right: 19px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.button--fb i{
+	width:14px;
+	height:13px;
+	display:inline-block;
+	float:left;
+	position:relative;
+	top:10px;
+	margin-right:12px;
+	background-position:0 -126px;
+	}
+	
+.box--news .box__title{
+	padding-left:10px;
+	}
+	.box--news .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--news .box__title>i{
+		background-position:0 -56px;
+    background-repeat:no-repeat;
+		float:left;
+		width:22px;
+		height:24px;
+		display:inline-block;
+		position:relative;
+		top:7px;
+		margin-right:5px;
+		}
+.box--about-game .box__title{
+	padding-left:9px;
+	}
+	.box--about-game .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--about-game .box__title>i{
+		background-position:0 -80px;
+    background-repeat:no-repeat;
+		float:left;
+		width:27px;
+		height:27px;
+		display:inline-block;
+		position:relative;
+		top:4px;
+		margin-right:14px;
+		}
+	
+.box--leaderboard .box__title,
+.box--play-game__topten .box__title{
+	padding-left:9px;
+	}
+	.box--leaderboard .box__title strong,
+	.box--play-game__topten .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--leaderboard .box__title>i,
+	.box--play-game__topten .box__title>i{
+		background-position:0 -108px;
+    background-repeat:no-repeat;
+		float:left;
+		width:26px;
+		height:17px;
+		display:inline-block;
+		position:relative;
+		top:9px;
+		margin-right:10px;
+		}
+
+.box--side-contests .box__title{
+	padding-left:8px;
+	}
+	.box--side-contests .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--side-contests .box__title>i{
+		background-position:0 -27px;
+    background-repeat:no-repeat;
+		float:left;
+		width:28px;
+		height:28px;
+		display:inline-block;
+		position:relative;
+		top:4px;
+		margin-right:6px;
+		}
+.box--side-tournaments .box__title{
+	padding-left:8px;
+	}
+	.box--side-tournaments .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--side-tournaments .box__title>i{
+		background-position:0 0;
+    background-repeat:no-repeat;
+		float:left;
+		width:28px;
+		height:25px;
+		display:inline-block;
+		position:relative;
+		top:5px;
+		margin-right:6px;
+		}
+.box--side-contests ul li i,
+.box--side-tournaments ul li i {
+position: absolute;
+top: 11px;
+left: 11px;
+}
+.box--user-status__mata i{
+height: 38px;
+float: left;
+margin-right: 15px;
+width:38px;
+	}
+.asset3{
+	background-position:0 -347px;
+	width:52px;
+	height:50px;
+	display:inline-block;
+	}
+.asset4{
+	background-position:0 -295px;
+	width:52px;
+	height:50px;
+	display:inline-block;
+	}
+.asset5{
+	background-position:0 -244px;
+	width:52px;
+	height:50px;
+	display:inline-block;
+	}
+.asset6{
+	background-position:0 -397px;
+	width:52px;
+	height:50px;
+	display:inline-block;
+	}
+
+
+/*play css*/
+.box--play-game__recommended .box__title>i,
+.box--comments .box__title>i,
+.lv-txt,
+.box--leaderboard .box__title>i,
+.box--play-game__topten .box__title>i,
+.box--play-game__awards .box__title>i,
+.box--play-game__prizes .box__title>i,
+.box--friends .box__title>i,
+.box--recommend-friends .box__title>i,
+.box--side-recent-active-user .box__title>i,
+.box--current-stats .box__title>i,
+.user-stats-detail .user-stats__rank i,
+.user-stats-detail .user-stats__played-time i,
+.user-stats-detail .user-stats__last-played i,
+.user-badge-and-award ul li a,
+.news-comment .content .button-holder .reply,
+.news-comment .content .button-holder .like,
+.box--play-game__awards td .award-item,
+.box--play-game__prizes td .prize-item{
+	background-image:url(../../i/minisite3/play-css-sprite.png);
+	}
+.box--play-game__recommended .box__title{
+	padding-left:10px;
+	}
+	.box--play-game__recommended .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--play-game__recommended .box__title>i{
+		background-position:0 0;
+    background-repeat:no-repeat;
+		float:left;
+		width:26px;
+		height:26px;
+		display:inline-block;
+		position:relative;
+		top:5px;
+		margin-right:6px;
+		}
+.box--comments .box__title{
+	padding-left:9px;
+	}
+	.box--comments .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--comments .box__title>i{
+		background-position:0 -27px;
+    background-repeat:no-repeat;
+		float:left;
+		width:26px;
+		height:21px;
+		display:inline-block;
+		position:relative;
+		top:8px;
+		margin-right:10px;
+		}
+
+.box--leaderboard .box__title,
+.box--play-game__topten .box__title{
+	padding-left:10px;
+	}
+	.box--leaderboard .box__title strong,
+	.box--play-game__topten .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--leaderboard .box__title>i,
+	.box--play-game__topten .box__title>i{
+		background-position:0 -137px;
+    background-repeat:no-repeat;
+		float:left;
+		width:26px;
+		height:17px;
+		display:inline-block;
+		position:relative;
+		top:8px;
+		margin-right:9px;
+		}
+
+.box--play-game__awards .box__title{
+	padding-left:10px;
+	}
+	.box--play-game__awards .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--play-game__awards .box__title>i{
+		background-position:0 -83px;
+    background-repeat:no-repeat;
+		float:left;
+		width:22px;
+		height:29px;
+		display:inline-block;
+		position:relative;
+		top:5px;
+		margin-right:10px;
+		}
+.box--play-game__prizes .box__title{
+	padding-left:10px;
+	}
+	.box--play-game__prizes .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--play-game__prizes .box__title>i{
+		background-position:0 -156px;
+    background-repeat:no-repeat;
+		float:left;
+		width:21px;
+		height:24px;
+		display:inline-block;
+		position:relative;
+		top:6px;
+		margin-right:11px;
+		}
+.box--friends .box__title,
+.box--recommend-friends .box__title,
+.box--side-recent-active-user .box__title{
+	padding-left:10px;
+	}		
+	.box--friends .box__title strong,
+	.box--recommend-friends .box__title strong,
+	.box--side-recent-active-user .box__title strong{
+			background-image:none;
+			padding-left:0;
+	}
+	.box--friends .box__title>i,
+	.box--recommend-friends .box__title>i,
+	.box--side-recent-active-user .box__title>i{
+		background-position:0 -48px;
+    background-repeat:no-repeat;
+		float:left;
+		width:20px;
+		height:31px;
+		display:inline-block;
+		position:relative;
+		top:3px;
+		margin-right:12px;
+	}
+.box--side-recent-active-user .box__title>i{
+		margin-right:6px;
+	}
+
+.box--current-stats .box__title{
+	padding-left:10px;
+	}
+	.box--current-stats .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--current-stats .box__title>i{
+		background-position:0 -112px;
+    background-repeat:no-repeat;
+		float:left;
+		width:27px;
+		height:26px;
+		display:inline-block;
+		position:relative;
+		top:6px;
+		margin-right:5px;
+		}
+.news-comment .content .button-holder a{
+	margin-top:4px;
+	padding-top:0;
+	}
+.news-comment .content .button-holder .like{
+	height:14px;
+	line-height:14px;
+	background-position:0 -399px;
+	}
+.news-comment .content .button-holder .reply {
+	height:11px;
+	padding-bottom:1px;
+	display:inline-block;
+	line-height:11px;
+	background-position:0 -387px;
+	}
+
+
+/*news css*/
+.tournaments-details__button .print-btn,
+.news-details__button .print-btn,
+.link-print{
+	height:17px;
+	line-height:17px;
+	background-position:0 -199px;
+	}
+.news-comment .content .button-holder a{
+	padding-top:0;
+	margin-top:4px;
+	}
+.news-comment .content .button-holder .like{
+	height:15px;
+	line-height:15px;
+	background-position:0 -119px;
+	}
+.news-comment .content .button-holder .reply{
+	height:11px;
+	line-height:11px;
+	background-position:0 -166px;
+	}
+.news-details__button a,
+.news-block .buttons a{
+	background-image:none;
+	padding-left:9px;
+	}
+.news-details__button a i,
+.news-block .buttons a i{
+	display:inline-block;
+	position:relative;
+	float:left;
+	}
+.buttons .tweet i{
+	background-position:0 -105px;
+	width:18px;
+	height:14px;
+	top:9px;
+	margin-right:4px;
+	}
+.buttons .like i{
+	background-position:0 -135px;
+	width:18px;
+	height:15px;
+	top:6px;
+	margin-right:4px;
+	}
+.buttons .social{
+	padding-left:7px;
+	}
+.buttons .social i{
+	background-position:0 -178px;
+	width:18px;
+	height:20px;
+	top:5px;
+	margin-right:6px;
+	}
+.news-block .buttons .comment{
+	padding-left:7px;
+	}
+.buttons .comment i{
+	background-position:0 -151px;
+	width:17px;
+	height:14px;
+	top:8px;
+	margin-right:7px;
+	}
+
+.tournaments-details__button .print-btn,
+.news-details__button .print-btn,
+.link-print,
+.news-comment .content .button-holder .like,
+.news-comment .content .button-holder .reply,
+.news-details__button a i,
+.news-block .buttons a i,
+.box--news .box__title>i,
+.box--news-category .box__title>i,
+.box--comments .box__title>i,
+.box-blog-article .box__title span i,
+.box-blog-filter .box__title span i,
+.box--blog .box__title span i,
+.box-blog-article .box__title .breadcrumb-sub i,
+.box__title strong span i,
+.box__title .breadcrumb-sub i{
+	background-image:url(../../i/minisite3/news-css-sprite.png);
+	}
+.box--news .box__title{
+	padding-left:11px;
+	}
+	.box--news .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--news .box__title>i{
+		background-position:0 -22px;
+    background-repeat:no-repeat;
+		float:left;
+		width:22px;
+		height:24px;
+		display:inline-block;
+		position:relative;
+		top:6px;
+		margin-right:4px;
+		}
+
+.box--news-category .box__title{
+	padding-left:9px;
+	}
+	.box--news-category .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--news-category .box__title>i{
+		background-position:0 0;
+    background-repeat:no-repeat;
+		float:left;
+		width:28px;
+		height:22px;
+		display:inline-block;
+		position:relative;
+		top:9px;
+		margin-right:8px;
+		}
+.box--comments .box__title{
+	padding-left:9px;
+	}
+	.box--comments .box__title strong{
+		background-image:none;
+		padding-left:0;
+		}
+	.box--comments .box__title>i{
+		background-position:0 -47px;
+    background-repeat:no-repeat;
+		float:left;
+		width:26px;
+		height:21px;
+		display:inline-block;
+		position:relative;
+		top:9px;
+		margin-right:8px;
+		}
+		
+.box-blog-article .box__title span,
+.box-blog-filter .box__title span,
+.box--blog .box__title span,
+.box-blog-article .box__title .breadcrumb-sub,
+.box__title strong span,
+.box__title .breadcrumb-sub{
+	background-image:none;
+	padding-left:10px;
+     
+}
+.box-blog-article .box__title span i,
+.box-blog-filter .box__title span i,
+.box--blog .box__title span i,
+.box-blog-article .box__title .breadcrumb-sub i,
+.box__title strong span i,
+.box__title .breadcrumb-sub i{
+		background-position:0 -69px;
+    background-repeat:no-repeat;
+		float:left;
+		width:13px;
+		height:15px;
+		display:inline-block;
+		position:relative;
+		top:11px;
+		margin-right:11px;
+     
+}

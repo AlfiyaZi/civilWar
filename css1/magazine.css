@@ -1,0 +1,1421 @@
+/* new/magazine.css contents*/
+/* binders */
+/*.bnr-block dt {
+    background-color: #000;
+    color: #808080;
+    font-weight: normal;
+}
+*/
+
+.mainLayout .content.left {
+    overflow: visible!important;
+}
+
+.layout.black .partnersNews h2{
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+    margin-left: 11px;
+    text-align: left;
+}
+.layout.black .items{padding-bottom:25px;text-align: left;margin-left: 12px;}
+.layout.black .partnersNews #adriver_banner{
+    margin: 0 auto;
+    text-align: left;
+    width: 990px;
+}
+
+.blockCurrentIssue {
+    background: #fff;
+    border: 1px solid #3b3939;
+    margin-bottom: 20px;
+}
+.blockCurrentIssue .title {
+    background: #5a5a5a url('/i/magazine/bg-block-currentissue-title.png') no-repeat 50% 100%;
+    padding: 8px 12px 10px 12px;
+}
+.blockCurrentIssue .title .meta {
+    color: #ffd400;
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 18px;
+    padding-left: 3px;
+}
+
+.blockCurrentIssue .title .meta a{
+    color: #ffd400;
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.blockCurrentIssue .title h2 {
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 29px;
+}
+.blockCurrentIssue .slider {
+    overflow: hidden;
+    z-index: 99;
+    position: relative;
+    border: 8px solid #FFF;
+
+}
+
+.blockCurrentIssue .control {
+    background: #ededed;
+    border: 1px solid #c7c7c7;
+    cursor: pointer;
+    display: block;
+    height: 9px;
+//height: 11px;
+    position: relative;
+    z-index: 99;
+}
+.blockCurrentIssue .control.up {
+    margin-bottom: 5px;
+}
+.blockCurrentIssue .control.down {
+    margin-top: 5px;
+}
+.blockCurrentIssue .control.disabled {
+    background: #fff;
+    border-color: #f0f0f0;
+    cursor: default;
+}
+.blockCurrentIssue .control i {
+    background: url('/i/magazine/i-block-currentissue-ctrl.png') no-repeat;
+    display: block;
+    font-size: 0;
+    height: 5px;
+    left: 50%;
+    margin-left: -5px;
+    position: absolute;
+    top: 2px;
+    width: 10px;
+}
+.blockCurrentIssue .control.down i {
+    background-position: 0 -5px;
+}
+.blockCurrentIssue .control.disabled i {
+    opacity: 0.06;
+    filter: alpha(opacity=6);
+}
+
+.blockCurrentIssue .list {
+    overflow: hidden;
+    position:relative;
+    width:239px;
+}
+.blockCurrentIssue .list ul {
+    position: relative;
+    top: 0;
+    z-index: 0;
+
+}
+.blockCurrentIssue .list li {
+    border-top: 1px dotted #c7c7c7;
+    margin: 0 -5px;
+    padding: 9px 7px;
+    z-index: -99;
+//zoom: 1;
+    width:217px;
+}
+.blockCurrentIssue .list li.first {
+    border-top: none;
+    padding-top: 0;
+}
+.blockCurrentIssue .list li.first .image {
+    display: block;
+    height: 145px;
+    margin: 0 0 9px -2px;
+    width: 222px;
+}
+.blockCurrentIssue .list li h3 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+}
+.blockCurrentIssue .list li.first h3 {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.blockCurrentIssue .list li h3 a {
+    color: #08335f;
+}
+.blockCurrentIssue .list li h3 a:hover {
+    color: #f00 !important;
+}
+.blockCurrentIssue .list li h3 a.userInSubject {
+    color: #333 !important;
+    font:  bold italic 12px Georgia!important;
+}
+.blockCurrentIssue .list li h3 a.userInSubject.other {
+    font-weight: normal !important;
+}
+.blockCurrentIssue .list li h3 a.userInSubject:hover {
+    color: #f00 !important;
+}
+
+/* navigation top */
+.magazineNavigation {
+    background: #474747 url('/i/new/magazine/bg-magazine-navigation.png') repeat-x;
+}
+.magazineNavigation .magazineNavigationInner {
+    height: 37px;
+    margin: 0 auto;
+    position: relative;
+    width: 990px;
+}
+.magazineNavigation .listWrapper {
+    float: left;
+    left: 32px;
+    overflow: hidden;
+    padding: 8px 0 0 0;
+    position: relative;
+    width: 750px;
+    z-index: 2;
+}
+.magazineNavigation .list {
+    margin-left: -12px;
+    position: relative;
+    top: 0;
+    width: 9999px;
+}
+.magazineNavigation .list li {
+    border-left: solid 1px #5f5f5f;
+    float: left;
+    font: bold 12px/10px Arial;
+    padding: 0 12px;
+    position: relative;
+    text-transform: uppercase;
+}
+.magazineNavigation .list li a {
+    color: #fff !important;
+    line-height: 20px;
+}
+.magazineNavigation .list li a.current {
+    color: #fcd700 !important;
+}
+.magazineNavigation .list li a:hover {
+    color: #f00 !important;
+}
+
+.magazineNavigation .control {
+    background: url('/i/new/magazine/bg-paging.png') no-repeat;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    width: 24px;
+    z-index: 3;
+}
+.magazineNavigation i.next {
+    background-position: -16px 0;
+    left: 8px;
+}
+.magazineNavigation i.next.disabled {
+    cursor: default;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+.magazineNavigation em.prev {
+    background-position: 8px 0;
+    right: 8px;
+}
+.magazineNavigation em.prev.disabled {
+    cursor: default;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+.wraper-img-header {
+    width:265px;
+    height:80px;
+    background:url("/i/new/magazine/bg-wraper-heder-pic.jpg") 0 0 no-repeat;
+    position:absolute;
+    top: 0;
+    right:0;
+}
+.header-img {
+    padding:2px 7px 0 4px;
+}
+.count a {
+    color:#666666;
+
+}
+.count a:hover {
+    color:#666666;
+}
+
+.wideBanner {margin-left: -32px; width: 730px; margin-bottom: 4px; }
+
+
+/* OLD magazine.css contents*/
+
+.layout {
+	margin: 0 auto;
+}
+.magazine .layout .page-header {
+	border-bottom: none;
+	margin-bottom: 0;
+	text-align: left;
+}
+.layout.black {
+	background: #000;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+body.mobileSafari .layout {
+	width: 990px;
+}
+.layout.black .mainLayout,
+.layout.black .footer,
+* html .layout.black .footer {
+	margin: 0 auto;
+	text-align: left;
+	width: 990px;
+}
+.layout.black .footer {
+	width: 934px;
+}
+
+.layout.black .partnersNews{
+    width:990px;
+    margin:0 auto;
+    border:0px;
+    background: white;
+}
+.layout.black .partnersNews h2{
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+    margin-left: 11px;
+    text-align: left;
+}
+
+.layout.black .items{padding-bottom:25px;text-align: left;margin-left: 12px;}
+
+.layout.black .partnersNews #adriver_banner{
+    margin: 0 auto;
+    text-align: left;
+    width: 990px;
+}
+
+.mainLayout {
+	overflow: visible;
+}
+
+/* Старая светлая плашка архива журналов*/
+.magazine .magazineNavigation {
+	background: #f1f1f1 url('../i/magazine/bg-navigation.png') repeat-x;
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 2px solid #000;
+}
+.magazine .magazineNavigation .magazineNavigationInner {
+	height: 35px;
+	margin: 0 auto;
+	position: relative;
+	width: 990px;
+}
+.magazine .magazineNavigation a.magazineHelpLink {
+	display: block;
+	float: right;
+	font: bold 11px/10px Arial;
+	margin: 13px 12px 12px;
+	text-transform: none;
+}
+.magazine .magazineNavigation .listWrapper {
+	float: left;
+	left: 34px;
+	overflow: hidden;
+	padding: 8px 0 0px;
+	position: relative;
+	width: 750px;
+	z-index: 2;
+}
+.magazine .magazineNavigation .list {
+	margin-left: -12px;
+	position: relative;
+	top: 0;
+	width: 9999px;
+}
+.magazine .magazineNavigation .list li {
+	border-left: solid 1px #999;
+	float: left;
+	font: bold 11px/10px Arial;
+	padding: 0 12px;
+	position: relative;
+	text-transform: uppercase;
+}
+.magazine .magazineNavigation .list li a,
+.magazine .magazineNavigation a.magazineHelpLink {
+	color: #08335f !important;
+}
+.magazine .magazineNavigation .list li a.current {
+	color: #000 !important;
+}
+.magazine .magazineNavigation .list li a:hover,
+.magazine .magazineNavigation a.magazineHelpLink:hover {
+	color: #f00 !important;
+}
+
+.magazine .magazineNavigation .control {
+	background: #f1f1f1 url('/i/magazine/bg-paging.png') no-repeat;
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 21px;
+	left: 7px;
+	position: absolute;
+	top: 8px;
+	width: 27px;
+	z-index: 3;
+}
+.magazine .magazineNavigation i.next {
+	background-position: -21px 0;
+}
+.magazine .magazineNavigation i.next.disabled {
+	background-position: -21px -21px;
+	cursor: default;
+}
+.magazine .magazineNavigation em.prev {
+	background-position: 6px 0;
+}
+.magazine .magazineNavigation em.prev.disabled {
+	background-position: 6px -21px;
+	cursor: default;
+}
+
+.entryBody {
+	background: #fff;
+	border: none;
+	font-family: Georgia;
+    color:#000;
+	margin-top: 3px;
+    zoom:1;
+    position:relative;
+	//height: auto;
+    padding-bottom: 0;
+}
+.black .entryBody{border:none;}
+.body {
+	zoom:1;
+	overflow:visible;
+}
+.entryBody .media {
+	font-family: Arial;
+}
+.entryBody .imageGallery .description ul li {
+	font-style: italic;
+}
+.entryBody a {
+	color: #004276;
+}
+.entryBody a:hover {
+	text-decoration: underline;
+}
+
+.entryBody .commentInBody {
+	font-family: Arial;
+}
+.entryBody .commentInBody a:hover {
+	text-decoration: none;
+	color: #f63 !important;
+}
+.entryBody .audioVersion {
+	position: relative;
+	float: right;
+	width: 155px;
+    margin: 70px -130px 20px 30px;
+	padding: 0;
+	background: url('/i/magazine/index/audioVersion-bg.png') 0 0 no-repeat;
+	font: 12px/14px Arial;
+}
+.entryBody .audioVersion div {
+	padding-left: 55px;
+}
+.entryBody .audioVersion div.audioVersionListen {
+	padding-top: 7px;
+	cursor: pointer;
+}
+.entryBody .audioVersion h4 {
+	margin: 0 0 7px;
+	font: bold 12px/14px Arial;
+	color: #000;
+}
+.entryBody .audioVersion p {
+	margin: 0;
+	font: bold 9px/12px Arial;
+}
+.entryBody .audioVersion a {
+	color: #004276 !important;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.black .entryBody ul.social-likes{margin-top:28px;}
+.entryBody .entryFeatures {
+	clear: right;
+	margin-top: 33px !important;
+	//margin-top: 33px !important;
+	//margin-bottom: 22px !important;
+	position: relative;
+	}
+.entryBody .entryFeatures a {
+	text-decoration: none !important;
+	}
+/*
+.entryBody h1 {
+	font-size: 46px;
+	font-weight: normal;
+	line-height: 48px;
+	margin-bottom: 12px;
+    padding-right:205px;
+}
+.entryBody p {
+	font-size: 16px;
+	line-height: 24px;
+	overflow: visible;
+	text-align: left;
+}*/
+.entryBody .lead.smallFS {
+	font-size: 14px;
+}
+.entryBody .lead.bigFS {
+	font-size: 18px;
+}
+.entryBody .smallFS h2 {
+	font-size: 18px;
+}
+.entryBody .smallFS h3,
+.entryBody .smallFS p,
+.entryBody .smallFS li span {
+	font-size: 14px;
+}
+.entryBody .bigFS h2 {
+	font-size: 22px;
+}
+.entryBody .bigFS h3,
+.entryBody .bigFS p,
+.entryBody .bigFS li span {
+	font-size: 18px;
+}
+.entryBody .lead,
+.entryBody .author {
+	font: 12px/16px Georgia;
+}
+.entryBody .meta,
+.entryBody .author {
+	width: 250px;
+	position: relative;
+	}
+
+.entryBody .comment-content .author {
+	width: auto;
+	position: relative;
+}
+
+.entryBody .commentInBody .meta {
+	width: auto;
+	}
+.entryBody .author {
+	font-style: italic;
+}
+.entryBody .author b {
+	font-style: normal;
+	font-weight: normal;
+}
+.entryBody .author a.other {
+	font: 12px/16px Arial;
+}
+.entryBody .lead {
+	clear: both;
+	overflow: visible;
+	font: bold 16px/21px Arial;
+}
+
+.entryBody .tag {
+	font: 12px/23px Arial;
+}
+.entryBody .media {
+	clear: both;
+}
+
+.entry-note {
+	position: absolute;
+	left: 100%;
+	background: #fff;
+	margin-left: 59px;
+	padding: 8px 8px 6px 32px;
+	padding: 8px 0 8px;
+	border-top: 1px solid #fff !important;
+	border-bottom: 1px solid #000;
+	background: #fff url('/i/magazine/notes-bg.png') repeat-x 0 100%;
+	cursor: pointer;
+	font: normal 12px/16px Arial;
+	width: 240px;
+	z-index: 3;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+.mobileSafari .entry-note {
+	margin-left: 49px;
+	}
+* html .entry-note {
+	background-image: none;
+	/*margin-left: 0;*/
+	}
+.entry-note .entry-note-author {
+	font-weight: bold;
+	line-height: 18px;
+	margin-left: 34px;
+	text-decoration: none !important;
+	display: block;
+	}
+.entry-note .entry-note-author a {
+	color: #000 !important;
+	position: static;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.5);
+}
+.entry-note .entry-note-author a:hover {
+	color: #000 !important;
+	position: static;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.5);
+}
+
+.entry-note .entry-note-author .icon {
+	position: absolute;
+	left: 8px;
+	}
+* html .entry-note .entry-note-author .icon {
+	margin-top: -2px;
+	}
+.entry-note .entry-note-date {
+	color: #736755;
+	font-size: 9px;
+	font-weight: bold;
+	margin-right: 8px;
+	}
+.entry-note .entry-note-body {
+	display: none;
+	line-height: 18px;
+	padding: 5px 26px 5px 34px;
+	}
+.entry-note-active {
+	width: 270px;
+	border-bottom: 3px solid #464646 !important;
+	padding-top: 28px;
+	cursor: default;
+	}
+.mobileSafari .entry-note-active {
+	margin-left: 19px;
+	}
+.entry-note-active .close {
+	cursor: pointer;
+	}
+.entry-note-active .entry-note-body {
+	display: block;
+	}
+
+/* Notes */
+.notes {
+	font: normal 12px/16px Arial;
+}
+.notes dl {
+	position: relative;
+	z-index: 9;
+	border-top: 1px solid #fff;
+}
+* html .notes dl {
+	zoom: 1;
+}
+.notes dl.first {
+	border-top: 0;
+}
+.notes dd {
+	position: relative;
+	padding: 8px 8px 6px 32px;
+	border-bottom: 1px solid #000;
+	background: #fff url('/i/magazine/notes-bg.png') repeat-x 0 100%;
+	cursor: pointer;
+}
+* html .notes dd {
+	-background-image: none;
+}
+.notes dd h5 {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 18px;
+}
+.notes dd h5 img {
+	position: relative;
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-left: -24px;
+	padding-right: 6px;
+}
+* html .notes dd h5 img {
+	margin-left: -26px;
+}
+.notes dd h5 strong {
+	font-weight: bold;
+}
+
+.notes .time {
+	font-size: 9px;
+	color: #000;
+}
+
+.notes dl.active {
+	margin: 1px -31px 0 0;
+	border-top: 1px solid #fff;
+	z-index: 10;
+	margin-bottom: -10px;
+	padding-bottom: 10px;
+	background: url('/i/magazine/notes-shadow.png') 50% 100% no-repeat;
+}
+* html .notes dl.active {
+	-margin-bottom: 0;
+	-padding-bottom: 0;
+	-background: none;
+}
+.entry-note-active .entry-note-date,
+.notes dl.active dt {
+	display: block;
+	position: relative;
+	height: 14px;
+	line-height: 15px;
+	border-bottom: 1px solid #999;
+	background: #e6e6e6;
+	overflow: hidden;
+}
+.entry-note-active .entry-note-date {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-indent: 6px;
+	height: 15px;
+	}
+.entry-note .close,
+.notes dl.active dt a.close {
+	display: block;
+	float: right;
+	cursor: pointer;
+	width: 22px;
+	height: 14px;
+	text-indent: -9999px;
+	border-left: 1px solid #999;
+	background: url('/i/magazine/notes-close.png') no-repeat;
+}
+.entry-note .close {
+	display: none;
+	position: absolute;
+	float: none;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	}
+.entry-note-active .close {
+	display: block;
+	}
+* html .notes dl.active dt a.close {
+	width: 23px;
+	-background: url('/i/magazine/notes-close-ie.png') no-repeat;
+}
+.notes dl.active dt .time {
+	display: block;
+	position: absolute;
+	left: 6px;
+	top: 0;
+}
+* html .notes dl.active dt .time {
+	top: -1px;
+}
+.notes dl.active dd {
+	position: relative;
+	padding: 13px 26px 15px 34px;
+	background-color: #fff;
+	background-image: none !important;
+	border-bottom: 3px solid #464646 !important;
+	cursor: default;
+}
+.notes dl.active dd p {
+	display: block;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	line-height: 18px;
+	color: #000;
+}
+/* hidden parts */
+.notes dl dt,
+.notes dl.active dd h5 .time,
+.notes dl dd p {
+	display: none;
+}
+/* red */
+.notes dl.red dt,
+.notes dl.red dd,
+.colorPalettered,
+.entry-note-red,
+.entry-note-highlight-red {
+	background-color: #ffe4bd;
+}
+.notes dl.red dd,
+.entry-note-red {
+	border-color: #998971;
+}
+.notes dl.red span.time {
+	color: #736755;
+}
+.notes dl.active.red dt,
+.entry-note-active-red .entry-note-date {
+	border-color: #998971;
+	background: #ccb797;
+}
+.notes dl.active.red dt a.close {
+	border-color: #998971;
+}
+/* yellow */
+.notes dl.yellow dt,
+.notes dl.yellow dd,
+.colorPaletteyellow,
+.entry-note-yellow,
+.entry-note-highlight-yellow {
+	background-color: #ffffbf;
+}
+.notes dl.yellow dd,
+.entry-note-yellow {
+	border-color: #999973;
+}
+.notes dl.yellow span.time {
+	color: #737356;
+}
+.notes dl.active.yellow dt,
+.entry-note-active-yellow .entry-note-date {
+	border-color: #999973;
+	background: #d1d19d;
+}
+.notes dl.active.yellow dt a.close {
+	border-color: #999973;
+}
+/* green */
+.notes dl.green dt,
+.notes dl.green dd,
+.colorPalettegreen,
+.entry-note-green,
+.entry-note-highlight-green {
+	background-color: #bfffbf;
+}
+.notes dl.green dd,
+.entry-note-green {
+	border-color: #739973;
+}
+.notes dl.green span.time {
+	color: #567356;
+}
+.notes dl.active.green dt,
+.entry-note-active-green .entry-note-date {
+	border-color: #739973;
+	background: #9dd19d;
+}
+.notes dl.active.green dt a.close {
+	border-color: #739973;
+}
+/* blue */
+.notes dl.blue dt,
+.notes dl.blue dd,
+.colorPaletteblue,
+.entry-note-blue,
+.entry-note-highlight-blue {
+	background-color: #bfffff;
+}
+.notes dl.blue dd,
+.entry-note-blue {
+	border-color: #739999;
+}
+.notes dl.blue span.time {
+	color: #567373;
+}
+.notes dl.active.blue dt,
+.entry-note-active-blue .entry-note-date {
+	border-color: #739999;
+	background: #9dd1d1;
+}
+.notes dl.active.blue dt a.close {
+	border-color: #739999;
+}
+/* violet */
+.notes dl.violet dt,
+.notes dl.violet dd,
+.colorPaletteviolet,
+.entry-note-violet,
+.entry-note-highlight-violet {
+	background-color: #bfbfff;
+}
+.notes dl.violet dd,
+.entry-note-violet {
+	border-color: #737399;
+}
+.notes dl.violet span.time {
+	color: #565673;
+}
+.notes dl.active.violet dt,
+.entry-note-active-violet .entry-note-date {
+	border-color: #737399;
+	background: #9d9dd1;
+}
+.notes dl.active.violet dt a.close {
+	border-color: #737399;
+}
+/* pink */
+.notes dl.pink dt,
+.notes dl.pink dd,
+.colorPalettepink,
+.entry-note-pink,
+.entry-note-highlight-pink {
+	background-color: #ffbfff;
+}
+.notes dl.pink dd,
+.entry-note-pink {
+	border-color: #997399;
+}
+.notes dl.pink span.time {
+	color: #735673;
+}
+.notes dl.active.pink dt,
+.entry-note-active-pink .entry-note-date {
+	border-color: #997399;
+	background: #d19dd1;
+}
+.notes dl.active.pink dt a.close {
+	border-color: #997399;
+}
+
+/* Bookmark */
+.entryBookmark {
+	background: url('/i/i-entryBookmark.png') 0 0 no-repeat;
+	-background: url('/i/i-entryBookmark-ie.png') 0 0 no-repeat;
+	cursor: pointer;
+	position: absolute;
+	left: 50%;
+	margin-left: -525px;
+	top: 295px;
+	z-index: -1;
+	width: 60px;
+	height: 60px;
+	position: fixed;
+}
+
+.ie8 .entryBookmark {
+	margin-left: -526px;
+}
+
+.entryBookmarked {
+	background-position: left -60px;
+/*	margin-left: -525px;*/
+	position: absolute;
+}
+* html body {
+    background: url('/i/d-t.gif') no-repeat;
+    background-attachment: fixed;
+	}
+* html .entryBookmark {
+	position: 'absolute';
+	margin-top: expression(0+((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+"px");
+	}
+* html .entryBookmarked {
+/*	margin-left: -534px;*/
+	margin-top: 0;
+}
+
+
+/* Util */
+.util {
+	position: absolute;
+	/*left: 100px; /* needs a fixed offset because of different scrollbar widths in browsers */
+/*	margin-left: 0;*/
+	left: 50%;
+	margin-left: -740px;
+	top: 400px;
+	z-index: 2010;
+	padding: 30px 0 0 30px;
+	width: 270px;
+	overflow: hidden;
+}
+* html .util {
+	width: 300px;
+}
+.viewport .util {
+	top: 0;
+}
+
+.util .bContent {
+	position: relative;
+	top: -30px;
+	left: -30px;
+	width: 270px;
+	text-align: left;
+}
+.util .cn {
+	position: absolute;
+	left: 30px;
+	top: -7px;
+	width: 270px;
+	height: 100%;
+	background: url('/i/magazine/util-shadow.png') no-repeat;
+}
+* html .util .cn {
+	-background: none;
+}
+.util .cn.b {
+	top: auto;
+	margin-top: -7px;
+}
+
+.util dl {
+	border-right: 1px solid #b2b2b2;
+}
+.util dt {
+	height: 14px;
+	background: url('/i/magazine/util-dtbg.png') no-repeat;
+}
+* html .util dt {
+	-background: #e6e6e6 none;
+}
+.util dt span {
+	display: inline;
+	float: right;
+	cursor: pointer;
+	height: 14px;
+	text-indent: -9999px;
+	font-size: 0;
+	border-left: 1px solid #999;
+}
+.util dt .close {
+	width: 22px;
+	background: url('/i/magazine/notes-close.png') no-repeat;
+}
+.util dt .fix {
+	width: 26px;
+	background: url('/i/magazine/util-fix.png') no-repeat 0 0;
+}
+* html dt .fix {
+	width: 27px;
+	-background: url('/i/magazine/util-fix-ie.png') no-repeat 0 0;
+}
+.viewport .util dt .fix {
+	background-position: 0 -14px !important;
+}
+.util dd {
+	padding: 3px 10px 6px;
+	border-top: 1px solid #b2b2b2;
+	background: url('/i/magazine/util-ddbg.png') no-repeat;
+	font: normal 9px/15px Arial;
+	text-transform: uppercase;
+}
+* html .util dd {
+	zoom: 1;
+	-background: #fff none;
+}
+.util dd h5 {
+	margin: 3px 0;
+	font: bold 9px/11px Arial;
+}
+.util dd p {
+	margin: 7px 0;
+	padding-left: 1px;
+	color: #000;
+	font: normal 11px/12px Arial;
+	text-transform: none;
+}
+.util dd .controlRow {
+	margin-top: 7px;
+	overflow: hidden;
+}
+* html .util dd .controlRow {
+	zoom: 1;
+}
+.util dd a,
+.util dd span,
+.util dd small,
+.util dd big {
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-weight: bold;
+	line-height: 19px;
+	padding: 0 7px;
+	color: #fff;
+	border-right: 1px solid #292929;
+	border-left: 1px solid #828282;
+	background: #585858 url('/i/magazine/util-button-bg.png') 0 100% repeat-x;
+	text-align: center;
+	cursor: pointer;
+}
+.util dd .font {
+	cursor: default;
+	color: #fff !important;
+}
+.util dd a:hover,
+.util dd span:hover,
+.util dd small:hover,
+.util dd big:hover  {
+	color: #b3b3b3;
+	text-decoration: none;
+}
+.util dd .disabled {
+	color: #d0d0d0;
+	border-right: 1px solid #3e3e3e;
+	border-left: 1px solid #6e6e6e;
+	background: #8c8c8c url('/i/magazine/util-button-bg-dis.png') 0 100% repeat-x;
+	cursor: default;
+}
+.util dd a.disabled:hover,
+.util dd span.disabled:hover {
+	color: #d0d0d0;
+}
+
+.util dd small {
+	font-size: 14px;
+}
+.util dd big {
+	font-size: 18px;
+}
+.util dd .add { width: 63px; }
+* html .util dd .add { width: 75px; }
+.util dd .edit { width: 88px; }
+* html .util dd .edit { width: 105px; }
+.util dd .delete { width: 52px; }
+* html .util dd .delete { width: 69px; }
+
+.util dd .add,
+.util dd .font,
+.util dd .take {
+	border-left: none;
+}
+.util dd .delete,
+.util dd big,
+.util dd .print {
+	border-right: none;
+}
+.util dd .print,
+.util dd .take {
+	float: right;
+}
+.util dd .print { width: 42px; }
+* html .util dd .print { width: 59px; }
+.util dd .take { width: 75px; }
+* html .util dd .take { width: 88px; }
+
+.util dd .contact {
+	width: 236px;
+	border: none;
+}
+* html .util dd .contact {
+	width: 249px;
+}
+
+.util dd form {
+	margin: 7px 0;
+	overflow: hidden;
+}
+* html .util dd form {
+	zoom: 1;
+}
+.util dd form textarea {
+	display: block;
+	width: 250px;
+	height: 85px;
+	margin-bottom: 3px;
+	padding: 4px;
+	color: #fff;
+	font-size: 12px;
+	border: 0;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	background: #434343;
+}
+* html .util dd form textarea {
+	width: 249px;
+}
+.util dd form span {
+	background: none;
+	padding: 0 13px 0 2px;
+	border: 0;
+	font: bold 8px/15px Arial;
+	color: #000;
+}
+.util dd form span:hover {
+	color: #4d4d4d;
+}
+.util dd form span.cancel {
+	color: #c70505;
+}
+.util dd form span.cancel:hover {
+	color: #fa0808;
+}
+
+.util .blockNotesCount {
+	padding-bottom: 4px;
+	font: normal 10px Arial;
+	color: #000;
+	text-align: center;
+	border-right: 1px solid #b2b2b2;
+	background: url('/i/magazine/util-ddbg.png') no-repeat;
+}
+.util .blockNotesCount span {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: normal;
+}
+.util .blockCommentator {
+	position: relative;
+	padding: 0 0 7px;
+	background: url('/i/magazine/util-commbg.png') repeat;
+}
+.util .blockCommentator .label {
+	height: 20px;
+	margin-bottom: -7px;
+	color: #000;
+	border-right: 1px solid #b2b2b2;
+	border-bottom: 1px solid #b2b2b2;
+	background: url('/i/magazine/util-ddbg.png') no-repeat;
+	font: normal 10px Arial;
+	text-align: center;
+}
+.util .blockCommentator .label a {
+	color: #000;
+}
+.util .blockCommentator .label a:hover {
+	color: #4d4d4d;
+	text-decoration: none;
+}
+.util .blockCommentator .switcher {
+	position: absolute;
+	left: 0;
+	top: auto;
+	width: 270px;
+	height: 0;
+	margin-top: 7px;
+}
+.util .blockCommentator .switcher span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -10px;
+	top: -4px;
+	width: 19px;
+	height: 11px;
+	background: url('/i/magazine/util-switcher.png') no-repeat;
+	cursor: pointer;
+	font-size: 0;
+}
+* html .util .blockCommentator .switcher span {
+	-background: url('/i/magazine/util-switcher-ie.png') no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+.util .blockCommentator .switcher span { top: -11px; }
+} /* Opera hack */
+.util .blockCommentator .list {
+	margin: 16px 7px 0;
+	padding: 7px;
+	font-size: 11px;
+	line-height: 14px;
+	background: url('/i/magazine/util-combg.png') no-repeat;
+}
+* html .util .blockCommentator .list {
+	width: 254px;
+	-background: #ececec none;
+}
+
+.util .blockCommentator .list a {
+	font-size: 11px;
+}
+
+.blockPhotogalleryWrapper {
+	width: 1072px;
+	margin: 0 auto;
+}
+.blockPhotogallery {
+	color: #fff;
+	background: #000;
+	height: 100%;
+	text-align: left;
+}
+.blockPhotogallery .header {
+	border-bottom: 1px solid #fff800;
+	padding: 32px 44px 11px 0;
+    height:28px;
+    width:auto;
+}
+.blockPhotogallery .logo {
+	display: block;
+	float: left;
+	width: 88px;
+    padding:0;
+}
+.blockPhotogallery h1 {
+	margin-left: 536px;
+	font: 28px/28px Georgia;
+}
+.blockPhotogallery .content {
+	padding: 34px 0 42px;
+	position: relative;
+}
+.blockPhotogallery .content p.breadcrumb {
+	position: absolute;
+	top: 13px;
+	font: 10px/10px Georgia;
+	text-transform: uppercase;
+}
+.blockPhotogallery .content .photo {
+	margin-bottom: 34px;
+	text-align: center;
+}
+.blockPhotogallery .content .photo .innerPhoto {
+	margin: 0 auto;
+	width: 870px;
+	height: 580px;
+	overflow: hidden;
+}
+.blockPhotogallery .content .photo img {
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+.blockPhotogallery .content .photo a {
+	color: #fff;
+	text-decoration: underline;
+	font: 12px/28px Arial;
+}
+.blockPhotogallery .content .right {
+	margin-left: 536px;
+	margin-right: 50px;
+	position: relative;
+}
+.blockPhotogallery .content .right a.returnLink {
+	margin-left: -435px;
+	color: #fff;
+	font: 12px/12px Georgia;
+	text-decoration: underline;
+	float: left;
+	position: relative;
+}
+.blockPhotogallery .content .right .navigationBlock {
+	float: right;
+	padding: 0 0 20px 20px;
+}
+.blockPhotogallery .content p.photoDescription {
+	font: 14px/18px Georgia;
+	margin-bottom: 14px;
+}
+.blockPhotogallery .content p.photoSource {
+	font: 12px/12px Georgia;
+	color: #acacac;
+}
+.blockPhotogallery .content p.photoNavigation {
+	margin-top: 15px;
+	font: 12px/24px Georgia;
+}
+.blockPhotogallery .content p.photoNavigation a {
+	display: inline-block;
+}
+.blockPhotogallery .content p.photoNavigation a img {
+	position: relative;
+	top: 8px;
+}
+.blockPhotogallery .content p.photoNavigation span.grey {
+	color: #acacac;
+}
+
+.entryBody .popupImageGallery {
+	/*border: 6px solid #e5e5e5;*/
+	padding: 34px 0;
+	text-align: center;
+}
+.entryBody .popupImageGallery img {
+	float: none;
+	margin: 0;
+}
+
+.entryBody p span.capital {
+	font: bold 57px/24px Georgia;
+}
+
+.entryFeatures .take {
+	margin-left: 50px;
+	}
+* html .entryFeatures .take {
+	display: inline;
+	}
+
+.entryBody .blockCommentator {
+	font-family: Arial;
+	margin-right: 150px;
+	}
+
+.entryBody .body {
+	position: relative;
+	}
+.entryBody .copy-deny {
+	background: url('/i/d-t.gif');
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	//left: -666px;
+	top: 0;
+	}
+.entryBody a,
+.entryBody .poll,
+.entryBody .media,
+.entryBody .imageGallery,
+.entryBody .groupBtn,
+.entryBody .semiAccess,
+.entryBody .commentInBody {
+	position: relative;
+	z-index: 2;
+	}
+
+
+
+.mainLayout .content.left {
+
+    overflow:visible!important;
+}
+
+strong {
+
+}
+
+
+.entryBody .additionMagazineInfo {
+    margin: 0;
+    padding: 22px 16px 84px 233px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.entryBody .additionMagazineInfo a {
+    text-decoration: none;
+    color: #08335f;
+    font-weight: normal;
+}
+
+.entryBody .additionMagazineInfo a:hover {
+    color: #08335f;
+    text-decoration: underline;
+}
+
+body.magazine .content.body .media.video{z-index:2!important;}

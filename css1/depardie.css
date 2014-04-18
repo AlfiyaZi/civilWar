@@ -1,0 +1,105 @@
+.surveyContainer{
+    height: 528px;
+    background: #e5e5e5;
+}
+
+body .entryBody div.layer{
+    text-align: left;
+    font-family: Arial, serif;
+    font-size: 15px;
+    line-height: 18px;
+    color:#000;
+    padding:7px 7px 0;
+}
+body .entryBody div.layer div.white{
+    background: white url('/i/entry/depardie.jpg') no-repeat 359px 52px;
+    padding:18px 0 0 26px;
+    *height:452px;
+    height:434px;
+}
+body .entryBody div.layer p.situation{
+    width:284px;
+    text-align: left;
+    margin: 0 0 16px 0;
+    line-height: 18px;
+    font-size: 15px;
+}
+body .entryBody div.layer p.question{
+    margin: 7px 0 14px;
+}
+
+form.answers ol{
+    margin:0 0 0 20px;
+    padding: 0;
+}
+    form.answers ol li{
+        position: relative;
+        color:black;
+        cursor: pointer;
+        width:312px;
+        text-decoration: underline;
+        margin:0 0 13px 0;
+        text-align: left;
+    }
+
+.finalLayer img{
+    position: absolute;
+    top:7px;
+}
+body .entryBody div.layer.finalLayer .black{
+    z-index: 2;
+    width:638px;
+    height:453px;
+    position: absolute;
+    background:url('/i/entry/depardie/fin.png') no-repeat center center;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+
+}
+body .entryBody .finalLayer .black .question{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-215px;
+    width:430px;
+    line-height: 18px;
+    padding-right: 12px;
+    text-align: center;
+    color:white;
+}
+body .entryBody div.layer.finalLayer .white{
+    padding:0;
+    height:453px;
+}
+a.reRender, .finalLayer a.share,
+a.back
+{
+    display: inline-block;
+    cursor: pointer;
+    color: #f5f5f5;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: bold;
+    background: #656565;
+    padding:6px 20px;
+    margin-top: 25px;
+}
+a.reRender{margin-left:30px;}
+a.back{margin-left:20px;}
+
+a.reRender:hover, .finalLayer a.share, a.back:hover{color:#fff!important;}
+.finalLayer a.share:hover{background: #3b5998;}
+a.reRender:hover{background: #a31523;}
+a.back:hover{background: black;}
+
+.finalLayer a.share{
+    margin-left:36px;
+}
+.layers ul.social-likes{
+    position: absolute;
+    top: 490px;
+    left: 500px;
+    padding: 0;
+    margin:0;
+}
+body .layers ul.social-likes li{margin-right:15px;}

@@ -1,0 +1,43 @@
+/** Storage **/
+.blog_2965 center,
+.storage_2965 center
+{
+    display: block;
+    width: 100%;
+    min-width: 1001px;
+    background: url('/i/promotion/freywille/freywille-3.jpg') #fff no-repeat center 0px;
+    cursor: pointer;
+}
+
+.blog_2965 .layout,
+.storage_2965 .layout
+{
+    cursor: default;
+}
+
+.blog_2965 .mainLayout,
+.storage_2965 .mainLayout
+{
+    padding: 0;
+}
+
+.blog_2965 .mainLayout .left,
+.storage_2965 .mainLayout .left
+{
+    border: none;
+    background: #fff;
+}
+
+.blog_2965 .partnersNews,
+.storage_2965 .partnersNews
+{
+    display: none;
+}
+
+.blog_2965 .mainLayout .content.right,
+.storage_2965 .mainLayout .content.right
+{
+    width: 256px;
+    height: 100px;
+    cursor: pointer;
+}

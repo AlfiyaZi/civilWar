@@ -1,0 +1,408 @@
+/* Layout Components -  theme Minisite3 */
+
+/* .l-header */
+.l-header{
+	background:url(../../i/minisite3/header-bg.png) repeat-x 0 0;
+	}
+.l-header .veri-logo{
+    background:url(../../i/minisite3/verigames.png) no-repeat 0 0;
+    height:56px;
+    width:97px;
+    float:left;
+    margin-right:42px;
+}
+.l-header .social-links li{
+    margin-right:25px; 
+}
+.l-header .search-box a:hover{
+    background-color:#ffdc4e;
+}
+/* navigation header */
+.navigationHeaderWrapper{
+	background-color: #000000;
+	clear: both;
+	height: 36px;
+}
+.l-navigationHeader {
+	position:relative;
+	z-index:11;
+	width: 960px;
+	margin: 0 auto;
+}
+	.l-navigationHeader>ul { 
+		height: 36px;
+	 }
+		.l-navigationHeader>ul>li {
+			float: left;
+			height: 36px;
+			position:relative;
+			display: block;
+			margin-right: 20px;
+			line-height: 36px;
+		}
+		.l-navigationHeader>ul>li.help {
+			float: right;
+			margin-right: 0;
+			padding-right: 15px;
+		}
+			.l-navigationHeader>ul>li>a {
+				font-size: 12px;
+				display: block;
+				text-align: center;
+				text-decoration: none;
+				color: #999999;
+			}
+			.l-navigationHeader>ul>li>a:hover,
+			.l-navigationHeader ul li .is-active{
+				color:#ffffff;
+				}
+				.l-navigationHeader ul li a .arrow{
+					display:inline-block;
+					height:4px;
+					width:7px;
+					background-image:url(../../i/site-logo-sprite.png);
+					background-repeat:no-repeat;
+					background-position: -20px 0;
+					overflow:hidden;
+					float: right;
+					margin: 16px 0 0 4px;
+				}
+				.l-navigationHeader ul li a:hover .arrow{
+					background-position: -20px -10px;
+				}
+				.l-navigationHeader ul li ul {
+					border: 0;
+					padding: 6px 0;
+					position:absolute;
+					left: 0;
+					z-index:2;
+					top: 36px;
+					display:none;
+					background:#000000;
+				}
+				.l-navigationHeader ul li.float-right ul {
+					left: auto;
+					right: 0;
+				}
+				.l-navigationHeader ul li:hover ul {
+					display:block;
+				}
+					.l-navigationHeader ul li ul li{
+						float: none;
+						width: 100%;
+						cursor:pointer;
+						z-index:10;
+						height:auto;
+						position:static;
+						padding: 4px 10px;
+						line-height: 16px;
+					}
+				.l-navigationHeader ul li ul a{
+					font-size: 12px;
+					color: #999999;
+					display: block;
+					}
+				.l-navigationHeader ul li ul a:hover{
+					color: #ffffff;
+					text-decoration: none;
+					}
+.siteTitle{
+	clear:both;	
+	width: 960px;
+	height: 120px;
+	margin: 0 auto ;
+}
+	.siteTitle .title {
+		background: url("../../i/minisite3/logo.png") no-repeat scroll 0 0 transparent;
+		direction: ltr;
+		float: left;
+		height: 79px;
+		margin: 20px 0 0 0;
+		padding: 0;
+		text-indent: -9999px;
+		width: 78px;
+	}
+
+/* Home page */
+.l-content--logged-in{
+     margin: 0 22px 0 23px;
+    width: 440px;
+}
+/* play game */
+.l-content--left-main{
+    margin-left:0;
+    width:708px;
+}
+.l-sidebar--play-game{
+    width:240px;
+}
+
+
+/* footer */
+.sitemap-list a, .sitemap-list a:visited { font-size: 11px; }
+.sitemap-list strong{
+    font-size:18px;
+}
+.sitemap-list a{
+    font-size:13px;
+}
+.l-footer {
+	background:url("../../i/minisite3/footer-bg.png") repeat-x scroll 0 0 #081F46;
+	color: #4d4c4c;
+	font-size: 12px;
+}
+	.l-footer .content--footer-top{
+		width:auto;
+		padding-top:10px;
+		padding-bottom:3px;
+		}
+		.footer-top{
+			width: 960px;
+			margin: 0 auto;
+			}
+			.sitemap-list {
+				height:253px;
+				float: left;
+				width:125px;
+				background-repeat:no-repeat;
+				background-position:8px 16px;
+				padding-left:60px;
+				position:relative;
+			}
+            .sitemap-list span.icon {
+                display: block;
+                position: absolute;
+                left: 8px;
+                top: 16px;
+                width: 47px;
+                height: 46px;
+            }
+			.sitemap-list div{
+				height:150px;
+				padding-top:16px;
+				}
+			.sitemap-list strong{
+				font-family: 'BebasRegular';
+				color:#86898f;
+				padding-bottom:13px;
+				display:block;
+				font-weight:normal;
+				}
+			.sitemap-list--main span.icon {
+				background-image:url(../../i/minisite3/header_footer_sprites.png);
+                background-position: 0 -264px;
+                height:36px;
+                width: 62px;
+				}
+			.sitemap-list--main {
+				padding-left:85px;
+				}
+			.sitemap-list--game{
+				width:135px;
+				}
+			.sitemap-list--game span.icon{
+				background-image:url(../../i/minisite3/header_footer_sprites.png);
+                background-position: 0 -299px;
+                height: 40px;
+				}
+			.sitemap-list--help{
+				width:125px;
+				}
+			.sitemap-list--help span.icon{
+				background-image:url(../../i/minisite3/header_footer_sprites.png);
+                background-position: 0 -340px;
+                height: 43px;
+				}
+			.sitemap-list--follow span.icon{
+				background-image:url(../../i/minisite3/header_footer_sprites.png);
+                background-position: 0 -383px;
+                height: 38px;
+				}
+			.sitemap-list--follow {
+				}
+			.sitemap-list--links{
+				width:120px;
+				}
+			.sitemap-list--links span.icon{
+				background-image:url(../../i/minisite3/header_footer_sprites.png);
+                background-position: 0 -217px;
+                height:47px;
+                width:31px;
+				}
+				.sitemap-list--help div{
+					background:none;
+					}
+
+					.sitemap-list li { padding-bottom: 8px; }
+					.sitemap-list a,
+					.sitemap-list a:visited {
+						color:#2799E5;
+						text-decoration: none;
+						}
+					.sitemap-list a:hover {
+						border-bottom:1px dotted #2799E5;
+					 }
+			.l-footer .social-links li{
+				padding-bottom:5px;
+				}
+			.l-footer .social-links li a {
+				background-image:url(../../i/minisite3/header_footer_sprites.png);
+				background-repeat: no-repeat;
+				height: 22px;
+				line-height:22px;
+				display: block;
+				padding-left:30px;
+				direction: ltr;
+				overflow: hidden;
+			}
+			.sitemap-list .social-links li a:hover{
+				border-bottom:none;
+				}
+			.sitemap-list .social-links a:hover span{
+				border-bottom: 1px dotted #2799E5;
+				}
+			.social-links li .social-links_fb { background-position: 0 -422px; }
+			.social-links li .social-links_fb:hover { background-position: 0 -510px; }
+
+			.social-links li .social-links_tw { background-position: 0 -444px; }
+		  .social-links li .social-links_tw:hover { background-position: left -532px; }
+
+		  .social-links li .social-links_gg { background-position: 0 -466px; }
+			.social-links li .social-links_gg:hover { background-position: 0 -554px; }
+
+		  .social-links li .social-links_youtube { background-position: 0 -488px; }
+			.social-links li .social-links_youtube:hover { background-position: 0 -576px; }
+
+	.l-footer .content--footer-bottom{
+		width:auto;
+		padding-bottom: 10px;
+		}
+	.footer-bottom {
+		width:960px;
+		margin:0 auto;
+		padding-top: 10px;
+	}
+	.footer-bottom img{
+		margin-left:55px;
+		position:relative;
+		top:-2px;
+		}
+		.footer-bottom-left {
+			padding:3px 0 0 10px;
+		}
+			.footer-bottom-left p {
+				margin-bottom: 4px;
+				line-height: 14px;
+                color:#78859C;
+            }
+			.footer-bottom-left p a{
+				color:#4d4c4c;
+				text-decoration:underline;
+				}
+			.footer-bottom-left p a:hover{
+				text-decoration:none;
+				}
+				.footer-bottom-left p.title {
+					font-size: 26.29px;
+					line-height: 26.29px;
+				}
+					.footer-bottom-left p.title strong { font-family: 'Arial Black'; }
+			.footer-bottom-left span {
+				display: block;
+				margin-top: 5px;
+			}
+			
+
+/*New Menu*/
+.siteSwitch{
+	position: relative;
+	width: 124px;
+	height: 56px;
+	background: #000000; 	
+}
+.site-logo-current, .site-logo-current i, .site-list li a{
+	background-image: url(../../i/site-logo-sprite.png);
+	background-repeat: no-repeat;
+}
+.site-logo-current {
+	width: 124px;
+	height: 0;
+	padding: 56px 0 0 0;
+	overflow: hidden;
+	display: block;
+}
+.site-logo-current--veri{
+	background-position: -130px -60px;
+}
+.site-logo-current--circuitboat{
+	background-position: -130px -120px;
+}
+.site-logo-current--ghostmap{
+	background-position: -130px -180px;
+}
+.site-logo-current--pipejam{
+	background-position: -130px -240px;
+}
+.site-logo-current--stormbound{
+	background-position: -130px -300px;
+}
+.site-logo-current--XYLEM{
+	background-position: -130px -360px;
+}
+.site-logo-veri{
+	background-position: 0 -60px;
+}
+.site-logo-circuitboat{
+	background-position: 0 -120px;
+}
+.site-logo-ghostmap{
+	background-position: 0 -180px;
+}
+.site-logo-pipejam{
+	background-position: 0 -240px;
+}
+.site-logo-stormbound{
+	background-position: 0 -300px;
+}
+.site-logo-XYLEM{
+	background-position: 0 -360px;
+}
+	.site-logo-current i{
+		display: block;
+		width: 15px;
+		height: 15px;
+		background-position: 0 0;
+		position: absolute;
+		top: 21px;
+		right: 5px;
+	}
+	.site-logo-current:hover i{
+		background-position: 0 -15px;
+	}
+	.siteSwitch ul.site-list{
+		display: none;
+		width: 124px;
+		position: absolute;
+		top: 56px;
+		overflow: hidden;
+		background-color: #000000;
+	}
+	.show-sites ul.site-list{
+		display: block;
+	}
+		.siteSwitch ul.site-list li{
+			display: block;
+			width: 124px;
+			height: 50px; 
+		}
+			.siteSwitch ul.site-list li a{
+				display: block;
+				width: 124px;
+				height: 0;
+				padding: 50px 0 0 0;
+				overflow: hidden; 
+			}
+			.siteSwitch ul.site-list li a:hover{
+				background-color: #333333;
+			}
+

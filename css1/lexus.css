@@ -1,0 +1,139 @@
+.navigationBar{
+    box-shadow:none;
+}
+.blog_politika {
+	background: #0b0d11;
+}
+.blog_politika center {
+    display: block;
+    background-image: url('/i/promotion/lexus/lexusGS-1920.jpg');
+    background-repeat:  no-repeat;
+    background-position: 50% 0;
+    background-color: #1b1b1a;
+    background-size: 100%;
+}
+.blog_politika .content.left {
+    background: #fff;
+    width: 740px;
+}
+.blog_politika .content.right {
+    display: none;
+    cursor: pointer;
+}
+
+.blog_politika .promotion-click-area {
+    position: fixed;
+    height: 1000px;
+    width: 100%;
+    cursor: pointer;
+}
+.blog_politika .layout {
+	background: transparent;
+	cursor: default;
+}
+
+.partnersNews {
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 1920px) {
+    .blog_politika center {
+        background-image: url('/i/promotion/lexus/lexusGS-1920.jpg');
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .blog_politika center {
+        background-image: url('/i/promotion/lexus/lexusGS-1750.jpg');
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .blog_politika center {
+        background-image: url('/i/promotion/lexus/lexusGS-1600.jpg');
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .blog_politika center {
+        background-image: url('/i/promotion/lexus/lexusGS-1440.jpg');
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .blog_politika center {
+        background-image: url('/i/promotion/lexus/lexusGS-1366.jpg');
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .blog_politika center {
+        background-image: url('/i/promotion/lexus/lexusGS-1280.jpg');
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 800px) {
+    .blog_politika center {
+        background-image: url('/i/promotion/lexus/lexusGS-1280x800.jpg');
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .blog_politika center {
+        background-image: url('/i/promotion/lexus/lexusGS-1024.jpg');
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog_politika center {
+        background-image: url('/i/promotion/lexus/lexusGS-768.jpg');
+        background-size: auto;
+    }
+}
+
+
+/*.sociconsLexus{*/
+    /*position: absolute;*/
+    /*top:485px;*/
+    /*left:50%;*/
+    /*margin-left:515px;*/
+/*}*/
+/*.sociconsLexus a.ytube, .sociconsLexus a.fbook{*/
+    /*display: block;*/
+    /*float:left;*/
+    /*width:32px;*/
+    /*height: 32px;*/
+    /*margin: 6px;*/
+    /*background:url('/i/promotion/lexus/lexusSocIcons.png') no-repeat 0 0;*/
+/*}*/
+/*.sociconsLexus a.fbook{*/
+    /*background:url('/i/promotion/lexus/lexusSocIcons.png') no-repeat -32px 0;*/
+/*}*/
+/*.sociconsLexus a.fbook:hover{*/
+    /*background:url('/i/promotion/lexus/lexusSocIcons.png') no-repeat -32px -32px;*/
+/*}*/
+/*.sociconsLexus a.ytube:hover{*/
+    /*background:url('/i/promotion/lexus/lexusSocIcons.png') no-repeat 0 -32px;*/
+/*}*/
+
+
+/*.blog_politika.photogallery .layout {*/
+	/*border-left: 2px solid #000;*/
+	/*border-right: 2px solid #000;*/
+	/*background: #000;*/
+	/*cursor: default;*/
+/*}*/
+
+/*.blog_politika.photogallery .main .media.image, blog_politika.photogallery .blog .main .media.image {*/
+    /*background: url("/i/gallery/preloader-b.gif") no-repeat 50% 50%;*/
+/*}*/
+

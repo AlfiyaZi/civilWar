@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.entry_63464 .awardTabContent{
+    display: none;
+}
+
+.entry_63464 .blockCommentator{
+    display: none;
+}
+.entry_63464 .content.body{
+    padding-top: 16px;
+}
+
+.entry_63464 .awardTabs{
+    margin:20px 0 0 -39px;
+    width:728px;
+    border-top: 1px solid #c7c7c7;
+    padding: 6px 0 28px 0;
+    background: url('/i/entry/awardMenuBorder.png') repeat-x left bottom;
+}
+
+.entry_63464 .awardTabs ul{
+    list-style: none;
+    margin: 0;
+}
+.entry_63464 .awardTabs ul li{
+    background: none;
+    display: inline-block;
+    list-style-image: none;
+    padding: 0;
+
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Georgia, serif;
+    font-style: italic;
+
+}
+.entry_63464 .awardTabs ul span.dash{
+    display: inline-block;
+    margin: 0 8px;
+}
+.entry_63464 .awardTabs ul li a{
+    border-bottom: 1px dashed;
+    color:#010101;
+    font-weight: normal;
+    text-decoration: none;
+}
+.entry_63464 .awardTabs ul li a:hover{
+    color:#2c5177!important;
+    border-bottom: 1px dashed #2c5177;
+}
+
+.entry_63464 .awardTabs ul li a.visited{
+    border-bottom: 1px dashed #cdcdcd;
+    color:#cdcdcd;
+}
+.entry_63464 .awardTabs ul li a.active.visited,
+.entry_63464 .awardTabs ul li a.active{
+    color:#2c5177;
+    border-bottom: 0;
+    font-weight: bold;
+}
+

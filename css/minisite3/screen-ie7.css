@@ -1,0 +1,10 @@
+ .view-tournaments .input-wrapper input { 
+	top: -3px;
+}
+.box--side-recent-active-user ul li{
+	padding-top: 0px; 
+} 
+.is-my-score .infor-table .popup__skill-name img{
+    display:block;
+    margin:0;
+}

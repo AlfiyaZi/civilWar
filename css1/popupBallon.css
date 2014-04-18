@@ -1,0 +1,548 @@
+.popupBallon {
+	background: url('/i/bg-blackRC-b.gif') 8px bottom no-repeat;
+	padding-bottom: 6px;
+	overflow: hidden;
+	text-align: left;
+	display: none;
+	width: 325px;
+	position: absolute;
+	z-index: 9999999;
+}
+
+.popupBallon-noHook {padding-bottom: 0;}
+
+.popupBallon strong {
+	display: block;
+	padding: 0 0 3px 13px;
+	text-transform: uppercase;
+}
+.popupBallon label {
+	display: block;
+	color: #b3b3b3;
+	font-size: 9px;
+}
+.popupBallon .row {
+	margin-bottom: 9px;
+	overflow: hidden;
+}
+.popupBallon i {
+	font-style: normal;
+	color: #b3b3b3;
+	font-size: 9px;
+	display: block;
+}
+.popupBallon .canvas {
+	margin: 20px auto;
+	width: 298px;
+}
+.resizerBlock i {
+    margin: 15px 0 10px 15px;
+}
+.resizerBlock .controll {
+    margin: 15px 0 0 15px !important;
+}
+#imageBox{margin-left:15px;}
+.popupBallon .meta {
+	color: #6a6a6a;
+	margin-bottom: 23px;
+}
+.popupBallon .meta a,
+.popupBallon .meta a:hover {
+	color: #b3b3b3;
+	text-decoration: underline;
+}
+.popupBallon .controll {
+	border: medium none; margin: 0 15px; padding: 0; width: 100px;
+}
+.popupBallon .controll .btn {
+	border: 1px solid #868686;
+	border-width: 1px 0;
+	color: #fff;
+	display: block;
+	float: none;
+	margin: 0;
+	width: 100px;
+}
+.popupBallon .controll .btn.right {	float: right;}
+.popupBallon .controll .btn b {
+	background: url("/i/bg-personInfo-btn.png") #000;
+	border: 1px solid #868686;
+	border-width: 0 1px;
+	cursor: pointer;
+	display: block;
+	font: bold 11px/18px Arial;
+	margin: 0 -1px;
+	padding-bottom: 1px;
+	text-align: center;
+	width: auto;
+	position: relative;
+}
+.popupBallon .controll .btn.inactive b {
+	background: #868686;
+	color: #333;
+}
+.popupBallon form textarea {
+	background: #1f1f1f;
+	border: 0;
+	color: #fff;
+	font: normal 11px/14px Arial;
+	height: 45px;
+	margin: 10px 0 20px 2px;
+	width: 285px;
+}
+
+.popupBallon .twobtn {
+	padding-right:10px;
+	margin-top:-5px;
+	overflow: hidden;
+	padding-right: 1px;
+}
+.popupBallon .twobtn .controll {
+	float: right;
+	margin-right: 13px;
+	width: 100px;
+}
+.popupBallon .twobtn .controll.ok .btn,
+.popupBallon .twobtn .controll.ok .btn b
+	{border-color: #FFFFFF;}
+
+.popupBallon .opb {background-color: #FFFFFF; border-color: #B3B3B3;}
+.popupBallon .opb textarea {background-color: #FFFFFF; color: #000000; height: 138px; overflow: hidden; padding: 0 10px;}
+
+.popupBallon input {background-color: #F8F8F8; border: medium none; font-size: 11px; padding: 2px 4px; width: 287px;}
+.popupBallon input#upload {width:80%; position: relative;color:black;}
+.popupBallon input[type="file"]{color:#000;}
+.blackRC {
+	overflow:hidden;
+	padding: 5px 0;
+	position: relative;
+	width: 325px;
+	z-index: 10000;
+}
+
+
+
+.project-participants .blackRC {
+	padding: 0px 0 5px 0;
+}
+.project-participants .tabs {
+	height: auto;
+}
+.project-participants #t1 {
+	display: block;
+	float: none;
+	width: auto;
+	padding: 8px 18px;
+}
+
+.blackRC .cn {
+	background: url('/i/bg-blackRC.png');
+	height: 10px;
+	left: -5px;
+	position: absolute;
+	top: -5px;
+	width: 100%;
+	overflow: hidden;
+}
+.blackRC .cn.tl,
+.blackRC .cn.bl {
+	width:100%;
+}
+.blackRC .cn.tr,
+.blackRC .cn.br {
+	margin-left: 100%;
+}
+.blackRC .cn.bl,
+.blackRC .cn.br {
+	top: auto;
+}
+.blackRC .content {
+	background: #1f1f1f;
+	color: #fff;
+	font: 11px/14px Arial;
+	padding: 10px 0;
+}
+.blackRC a.close-button {
+	display: block;
+	background: url('/i/bubble_close_btn.gif') no-repeat left top;
+	height: 12px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 13px;
+}
+
+
+.popupBallon .c {
+	background: transparent url('/i/bg-corner-g.png') no-repeat scroll 0 0;
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	overflow: hidden;
+}
+.popupBallon .c.l {
+	top: 3px;
+	left: 0;
+	background-position: -5px 0;
+}
+.popupBallon .c.r {
+	top: 3px;
+	right: 0;
+	background-position: 0 0;
+}
+.popupBallon ul li.active .c.l {
+	top: 0;
+	left: 0;
+	background-position: -5px -5px;
+	display: block;
+}
+.popupBallon ul li.active .c.r {
+	top: 0;
+	right: 0;
+	background-position: 0 -5px;
+	display: block;
+}
+.popupBallon ul li .c.l,
+.popupBallon ul li .c.r {
+	display: none;
+}
+
+.popupBallon ul {
+	background: url('/i/bg-popupw.png');
+	height: 30px;
+	margin-top: 3px;
+}
+.popupBallon ul li {
+	color: #c9c9c9;
+	font-weight: bold;
+	font-size: 12px;
+	float: left;
+	width: 72px;
+	padding: 6px 18px;
+	white-space: nowrap;
+}
+.popupBallon ul #t0 {
+	width: 73px;
+}
+.popupBallon ul li.active {
+	background: #1f1f1f;
+	color: #fff;
+	position: relative;
+	padding: 9px 18px;
+	margin-top: -3px;
+}
+
+.popupBallon.add .canvas {
+	margin-top: 0;
+}
+
+.popupBallon .blackRC.add {
+	background: transparent url('/i/bg-popupw.png') repeat-x scroll 0 0;
+}
+
+.popupBallon #searchResult {
+	height: 136px;
+	width: 295px;
+	overflow-y: auto;
+}
+.popupBallon #searchResult ul {
+	background: none;
+}
+.popupBallon #searchResult li {
+	color: #000;
+	padding: 3px 10px;
+	cursor: pointer;
+	float: none;
+	width: auto;
+	font-weight: normal;
+}
+.popupBallon #searchResult li.mark {
+	color: #919191;
+	font-style: italic;
+	cursor: default;
+}
+.popupBallon #searchResult li.selected {
+	background-color: #c9c9c9;
+}
+
+#addressBook_CC .canvas {
+	margin: 0 auto;
+	width: 388px;
+}
+
+
+/* попап  */
+.overlay-popup {
+    background: #fff;
+    padding: 20px 0px 0px;
+    position: absolute;
+    width: 550px;
+    left: 50%;
+    margin-left: -275px;
+    z-index: 10012;
+    box-shadow: 0 8px 21px rgba(0,0,0, 0.13);
+    -webkit-box-shadow: 0 8px 21px rgba(0,0,0, 0.13);
+    -moz-box-shadow: 0 8px 21px rgba(0,0,0, 0.13);
+}
+.overlay-popup .close {
+    top: 11px;
+    right: 8px;
+    position: absolute;
+    cursor: pointer;
+}
+.overlay-popup h4{
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0 0 20px;
+    font-weight: normal;
+
+}
+.overlay-popup h1 {
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0 0 20px;
+    font-weight: normal;
+}
+.overlay-popup p {
+    color: #555;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom:1.5em;
+}
+.overlay-popup.padded {
+    padding: 20px 30px 40px;
+    width: 490px;
+}
+
+/* попап "партнерам */
+.sponsors {
+    width:553px;
+    padding:35px;
+}
+.sponsors h1{
+    color: #000;
+    font: 22px/30px Arial;
+}
+
+.sponsors p{
+    color:#333;
+    font: 13px/19px Arial;
+    padding: 0 0 20px 0;
+}
+
+.overlay-popup h2 {
+    margin: 18px 37px 0;
+    font: bold 20px arial;
+}
+.overlay-popup ul {
+    list-style-position:inside;
+    color: #555555;
+    font: 12px arial;
+    margin: 8px 37px 0;
+}
+.overlay-popup ul li {
+    margin-top: 10px;
+}
+
+.overlay-popup ul li a {
+    color: #08335f;
+    text-decoration: none;
+}
+.overlay-popup ul li span {
+    margin-right: 8px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~participation~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.popup-participation  {
+	position: absolute;
+	padding: 20px 30px 40px;
+    width: 700px;
+    margin-left: -370px;
+}
+.popup-participation strong {
+    color:#000;
+}
+.popup-participation ol {
+    float:left;
+    width:50%;
+    color:#555;
+    font-size:0.9em;
+}
+.popup-participation .subscription-column ol:first-child {
+    float:left;
+    width:45%;
+    padding-right:5%;
+}
+.popup-participation li {
+    margin: 0 0 1.3em 58px;
+    line-height:1.3em;
+}
+.popup-participation span {
+    color: #bf1f24;
+    font-family: Georgia;
+    font-size:33px;
+    font-style: italic;
+    margin-left:-58px;
+    margin-right: 9px;
+    float:left;
+    line-height:1em;
+    margin-top:-9px;
+    display:block;
+}
+.popup-participation  h2 {
+    margin:5px 0 22px 0;
+    font-size:16px;
+    color:#000;
+}
+.popup-participation  h1 {
+    margin:0 0 15px 0;
+
+}
+.popup-participation .subscription-column {
+    padding-bottom:0;
+}
+
+
+.window-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    filter: alpha(opacity=90);
+    z-index: 10002;
+	display: none;
+}
+
+/* liveJournalRepost popup blok */
+.liveJournalRepost {
+    height:525px;
+    width:616px;
+    padding: 0 !important;
+    background: #FFF url("/i/new/repost/i_lj.jpg") 30px 27px no-repeat;
+}
+.liveJournalRepost #load{
+    height:31px;
+    left:300px;
+    position:absolute;
+    top:190px;
+    width:31px;
+
+}
+
+.liveJournalRepost form{
+    width:330px;
+    position: relative;
+    left:50%;
+    margin:35px 0 0 -154px;
+}
+
+
+.liveJournalRepost .login-bock-user{
+    float:left;
+    margin:0px 0 22px 0;
+
+}
+.liveJournalRepost .login-bock-user input{
+    width:160px;
+    margin:0;
+}
+
+.liveJournalRepost .login-bock-pass{
+    float:right;
+    margin:0px 0 22px 0;
+}
+.liveJournalRepost .login-bock-pass input{
+    width:160px;
+    margin:0 ;
+}
+
+.liveJournalRepost p{
+    font: normal 12px/18px Arial;
+    color:#006697;
+}
+.liveJournalRepost p span{
+    font: normal 10px/11px Arial;
+    color:#555;
+}
+.liveJournalRepost p span a{
+    font: normal 10px/11px Arial;
+    color:#006697;
+}
+
+.liveJournalRepost input{
+    margin:0px 0 22px 0;
+    width:330px;
+    height:23px;
+
+}
+.liveJournalRepost textarea{
+    width:330px;
+}
+.liveJournalRepost .lj_submit{
+    background: transparent url("/i/new/repost/bt_repost.jpg") 0 0 no-repeat;
+    width:198px;
+    height:36px;
+    border: 0;
+    margin:13px 0 0 -7px;
+}
+
+.liveJournalRepost p.message{
+    color:#555555;
+    font:14px/18px Arial;
+    margin:18px 0 0 6px !important;
+    text-align:center
+}
+.liveJournalRepost p.message a{
+    margin: 30px 0 0 0 !important  ;
+    text-align: center;
+    font: normal 14px/18px Arial;
+    color: #006697;
+}
+
+.adult-popup{
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin:-120px 0 0 -242px;
+    z-index: 90005;
+    width:570px;
+    padding:20px 0px 34px 15px;
+}
+
+.adult-popup .close{
+    display: none;
+}
+
+.adult-popup p{
+    font-size: 20px;
+    line-height: 25px;
+    margin:4px 0 23px 15px;
+    color:black;
+    width:500px;
+}
+
+
+.adult-popup a.no,
+.adult-popup a.yes{
+    float:left;
+    display: block;
+    height:56px;
+    background: url('/i/adult-buttons.png') no-repeat;
+    color: white;
+    font-size: 15px;
+    cursor:pointer;
+}
+.adult-popup a.no{
+    width: 141px;
+    padding: 23px 0 0 62px;
+}
+.adult-popup a.yes{
+    width:330px;
+    background-position: -204px 0;
+    padding:23px 0 0 37px;
+}

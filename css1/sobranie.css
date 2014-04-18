@@ -1,0 +1,110 @@
+.navigationBar{
+    box-shadow:none;
+}
+.entry_54549 center,
+.entry_54550 center,
+.entry_59821 center
+{
+    display: block;
+    width: 100%;
+    min-width: 1001px;
+    background: url('/i/promotion/sobranie/bg.jpg') #000 no-repeat fixed center top;
+    cursor: pointer;
+}
+.entry_59821 center {
+    background: url('/i/promotion/sobranie/bg-2.jpg') #061027 no-repeat fixed center top;
+}
+.ipad.entry_54549 center,
+.ipad.entry_54550 center,
+.ipad.entry_59821 center
+{
+    background: url('/i/promotion/sobranie/bg.jpg') #000 no-repeat fixed -150% 100px;
+}
+.ipad.entry_59821 center
+{
+    background: url('/i/promotion/sobranie/bg-2.jpg') #061027 no-repeat fixed center top;
+}
+
+.entry_54549 .health-earning,
+.entry_54550 .health-earning,
+.entry_59821 .health-earning
+{
+    /*border: 1px dotted red;*/
+    display: block;
+    position:fixed;
+    z-index: 9999999;
+    right:15px;
+    top: 250px;
+    width: 7%;
+    height: 60%;
+    background: url(/i/promotion/sobranie/health-warning.png) #000 no-repeat 5px top;
+    background-size: contain;
+}
+.entry_59821 .health-earning
+{
+    top: 265px;
+    background: url(/i/promotion/sobranie/health-warning.png) #061027 no-repeat 5px top;
+    background-size: contain;
+}
+.ipad.entry_54549 .health-earning,
+.ipad.entry_54550 .health-earning,
+.ipad.entry_59821 .health-earning
+{
+    top: 220px;
+    height: 65%;
+}
+
+.entry_54549 .layout,
+.entry_54550 .layout,
+.entry_59821 .layout
+{
+    cursor: default;
+}
+
+.entry_54549 .mainLayout,
+.entry_54550 .mainLayout,
+.entry_59821 .mainLayout
+{
+    padding: 0;
+}
+
+.entry_54549 .entryBody,
+.entry_54550 .entryBody,
+.entry_59821 .entryBody
+{
+    border: none;
+    background: #fff;
+}
+
+.entry_54549 .mainLayout .right,
+.entry_54550 .mainLayout .right,
+.entry_59821 .mainLayout .right,
+.entry_54549 .partnersNews,
+.entry_54550 .partnersNews,
+.entry_59821 .partnersNews
+{
+    display: none;
+}
+
+.entry_54549 .mainLayout .content.right,
+.entry_54550 .mainLayout .content.right,
+.entry_59821 .mainLayout .content.right
+{
+    width: 256px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.entry_54549 div.layoutWrapper div.content div.stuff-comments,
+.entry_54550 div.layoutWrapper div.content div.stuff-comments,
+.entry_59821 div.layoutWrapper div.content div.stuff-comments
+{
+    margin-bottom: 0;
+}
+
+.entry_54549 .blockRelatedEntry,
+.entry_54550 .blockRelatedEntry,
+.entry_59821 .blockRelatedEntry
+{
+    background: #fff;
+}

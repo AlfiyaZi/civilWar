@@ -1,0 +1,39 @@
+.blockEchoMsk {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #3F4247 #3F4247;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    font-family: Tahoma,sans-serif;
+    width:238px;
+    margin: 0 auto 20px;
+}
+.blockEchoMsk .blockEchoMsk__head {
+    background: url("/i/binders/echo-head.png") no-repeat scroll center center transparent;
+    height: 62px;
+}
+.blockEchoMsk .blockEchoMsk__content{
+    padding: 6px;
+    display: none;
+}
+.blockEchoMsk .blockEchoMsk__content .blockEchoMsk__name {
+    line-height: 1.2em;
+    margin-bottom: 6px;
+    text-decoration: none;
+}
+.blockEchoMsk .blockEchoMsk__content .blockEchoMsk__thumb {
+    border: 0 none;
+    margin-bottom: 6px;
+}
+.blockEchoMsk .blockEchoMsk__content .blockEchoMsk__thumb img {
+    height: auto;
+    width: 100%;
+}
+.blockEchoMsk .blockEchoMsk__content .blockEchoMsk__txt {
+    color: #303030;
+    line-height: 1.2em;
+    text-decoration: none;
+}

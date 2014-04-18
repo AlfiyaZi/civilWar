@@ -1,0 +1,23 @@
+.navigationBar{
+    box-shadow:none;
+}
+.entry_50554,
+.entry_50985,
+.entry_51017 {
+	background: #000;
+}
+.entry_50554 center,
+.entry_50985 center,
+.entry_51017 center {
+	display: block;
+	background: url('/i/promotion/macau/macau.jpg') no-repeat 50% 0;
+	cursor: pointer;
+}
+.entry_50554 .layout,
+.entry_50985 .layout,
+.entry_51017 .layout {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	background: #fff;
+	cursor: default;
+}

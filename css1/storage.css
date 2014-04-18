@@ -1,0 +1,560 @@
+.issue-title {
+    border-bottom: 0;
+    padding: 2px 0 18px 12px;
+    overflow: visible;
+    //zoom : 1;
+}
+
+
+.issue-title h1 {
+    background: url('/i/new/magazine/dotted.gif') repeat-x 0 100%;
+    float: left;
+    font-weight: normal;
+    line-height: 44px;
+    margin: -2px 0 5px;
+    font-family: Georgia, serif;
+}
+
+.issue-title h1 strong {
+    font-size: 44px;
+    font-weight: normal;
+    position: relative;
+}
+
+.entryList2 .item {
+    background: url('/i/new/magazine/dotted.gif') repeat-x 0 100%;
+    margin-bottom: 10px;
+    padding:20px 10px 20px 32px;
+    position: relative;
+}
+
+.entryList2 .item .meta {
+    color: #777;
+    font-family: Georgia, serif;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+
+.entryList2 .item h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 12px;
+    overflow:hidden;
+
+}
+
+.entryList2 div#entry_53300 h2 a{
+    display: inline-block;
+}
+.entryList2 .item h2 a {
+    color: #000;
+}
+
+.author-storage-entry {
+    margin:-9px 0 16px 0px;
+    color:#666666;
+    font:italic 15px/14px Georgia;
+    display:block;
+}
+.author-storage-entry-again {
+    margin:-9px 0 16px 0px;
+    color:#666666;
+    font:italic 15px/14px Georgia;
+    display:block;
+}
+
+.entryList2 .item .image {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.entryList2 .item.less .image {
+    left: 30px;
+    position: absolute;
+    top: 20px;
+}
+.entryList2 .item .lead {
+    color: #333;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 15px;
+    margin-right:30px;
+}
+.entryList2 .item .count {
+    color: #666;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+.entryList2 .item .count span {
+    background: no-repeat 0 3px;
+    margin-right: 7px;
+    padding-left: 14px;
+}
+.entryList2 .item .count span.count-replies {
+    background-image: url('/i/new/magazine/i-count-replies.png');
+}
+.entryList2 .item .count span.count-repliers {
+    background-image: url('/i/new/magazine/i-count-repliers.png');
+}
+.entryList2 .item .blockCommentator .list {
+    color: #666;
+    line-height: 15px;
+    margin-right:66px;
+}
+.entryList2 .item .blockCommentator .list a {
+    color: #666;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 0;
+}
+
+.tag {
+    height: 96px;
+    background: url("/i/new/magazine/dotted.gif") repeat-x scroll 0 100% transparent;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+
+.tag h1 {
+    font: normal 30px/47px Arial;
+    color: #000;
+    padding: 0 0 0 32px;
+}
+
+.tag h1 strong {
+    font: bold 30px/47px Arial;
+    color: #000;
+}
+
+.tag .how-much {
+    font: normal 12px/15px Arial;
+    color: #333;
+    padding: 12px 0 0 32px;
+}
+
+.tag .how-much i {
+    font: normal 12px/15px Georgia;
+    color: #333;
+}
+
+.issue-search {
+    bottom: 15px;
+    right: 0;
+}
+
+.issue-search-title {
+    background: #fff;
+    min-height: 0;
+    padding-bottom: 6px;
+}
+.issue-search-title .switch {
+    position:relative;
+    background: url("/i/new/storage/check-box.png") 0 -15px no-repeat;
+    padding: 0 0 0 17px;
+    color: #000;
+    margin: 10px 0 0 3px;
+}
+.issue-search-title .switch.active {
+    position:relative;
+    background: url("/i/new/storage/check-box.png") 0 0px no-repeat;
+    padding: 0 0 0 17px;
+    color: #000;
+    margin: 10px 0 0 3px;
+
+}
+.issue-search-title .issue-search-back a {
+    background-image: url('/i/new/i-issue-search-back.png');
+    color: #08335F;
+}
+
+.issue-title .moderator-line {
+    clear: left;
+    color: #808080;
+    font-size: 11px;
+    line-height: 15px;
+    font: normal 11px/15px Arial;
+}
+
+.issue-title .blog-subscribe {
+    font-size: 11px;
+    line-height: 25px;
+    position: absolute;
+    right: 0;
+    top: 3px;
+    width: 221px;
+}
+
+.issue-title .blog-subscribe-btn {
+    background: url('/i/new/bg-button-h25.png') no-repeat;
+    display: block;
+    float: left;
+    height: 25px;
+    margin-right: 9px;
+    padding-left: 3px;
+}
+
+.issue-title .blog-subscribe-btn span {
+    background: url('/i/new/bg-button-h25.png') no-repeat 100% 0;
+    color: #fff;
+    display: block;
+    line-height: 24px;
+    padding: 0 15px 1px 25px;
+    position: relative;
+
+    //cursor : pointer;
+    //float : left;
+    //zoom : 1;
+}
+
+.issue-title .blog-subscribe-btn span i {
+    background: url('/i/new/i-button-subscribe.png') no-repeat;
+    height: 14px;
+    left: 3px;
+    position: absolute;
+    top: 5px;
+    width: 15px;
+}
+
+.issue-title .blog-subscribe.subscribed {
+    background: url('/i/new/bg-subscribed.png') no-repeat 0 1px;
+    line-height: 13px;
+    padding-left: 33px;
+    width: 188px;
+}
+
+.issue-title .blog-subscribe.subscribed a {
+    text-decoration: underline;
+}
+
+
+/* tags list full */
+.tags-list-full .item {
+    background: url('/i/new/global/dotted.gif') repeat-x;
+    margin-bottom: 18px;
+    padding: 20px 0 0 54px;
+    position: relative;
+    //zoom : 1;
+}
+
+.tags-list-full .item .letter {
+    color: #d0d0d0;
+    font-family: Georgia, serif;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: bold;
+    left: -2px;
+    line-height: 33px;
+    position: absolute;
+    top: 10px;
+}
+
+.tags-list-full .item ul {
+    margin-right: -27px;
+    word-spacing: -0.25em;
+}
+
+.tags-list-full .item li {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0 26px 4px 0;
+    vertical-align: top;
+    width: 135px;
+    word-spacing: normal;
+    //display : inline;
+    //zoom : 1;
+}
+
+.tags-list-full .item li a span.en {
+	display: none
+}
+
+/* authors list full */
+.authors-list-full {
+    background: url('/i/new/global/dotted.gif') repeat-x;
+    margin-bottom: 28px;
+    word-spacing: -0.25em;
+}
+
+.authors-list-full-wrap {
+    margin-right: -16px;
+}
+
+.authors-list-full .item {
+    background: url('/i/new/global/dotted.gif') repeat-x 0 100%;
+    display: inline-block;
+    margin-right: 16px;
+    position: relative;
+    vertical-align: top;
+    word-spacing: normal;
+    //display : inline;
+    //zoom : 1;
+    height: 100px;
+    width: 330px;
+}
+
+.authors-list-full .item .pic {
+    left: 0;
+    position: absolute;
+    top: 10px;
+}
+
+.authors-list-full .item .pic .stamp {
+    position: absolute;
+    right: -8px;
+    top: -3px;
+}
+
+.authors-list-full .item .moderator-title {
+    color: #692bc4;
+    font-size: 11px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 96px;
+}
+
+.authors-list-full .item .userInSubject {
+    left: 96px;
+    position: absolute;
+    top: 31px;
+}
+
+.authors-list-full .item.moderator .userInSubject {
+    font-size: 18px;
+    line-height: 20px;
+    top: 24px;
+}
+
+.authors-list-full .item .all-from-author {
+    font-size: 10px;
+    left: 96px;
+    position: absolute;
+    top: 71px;
+    color: #08335F;
+}
+.tag h1{
+    margin: 0;
+    padding: 0;
+}
+.issue-title-simple .inner {
+    height:90px;
+    position: relative;
+    clear:both;
+    width: 100%;
+    border-bottom: 3px solid #000;
+}
+
+.issue-title-simple .inner h1 {
+    float: none;
+    border:none;
+    font: normal 44px/44px Georgia;
+    color:#000;
+    background:none;
+    padding: 21px 0 0 8px;
+}
+.issue-title-simple .inner h1 strong{
+    font-weight: bold;
+}
+span.userInSubject {
+    color: #333333 !important;
+    font-family: Georgia;
+    font-size: 24px;
+    font-style: italic;
+    text-transform: none;
+}
+div.lastEntries span.userInSubject {
+	font-size: 12px;
+}
+.entryBody .heroes {
+    margin-bottom: 10px;
+    padding-bottom: 16px;
+    position: relative;
+    width: 100%;
+}
+.entryBody .heroes .hContent {
+    border: 2px solid #D50002;
+    padding: 12px;
+}
+.entryBody .heroes.long .photo {
+    width: 166px;
+}
+.entryBody .heroes .photo {
+    float: left;
+    margin-bottom: -3px;
+}
+.entryBody .heroes .photo img {
+    display: block;
+    float: left;
+    margin: 0 3px 3px 0;
+}
+.entryBody .heroes.long .centered {
+    height: 163px;
+}
+.entryBody .heroes .centered {
+    display: table-cell;
+    height: 80px;
+    vertical-align: middle;
+    width: auto;
+}
+.entryBody .heroes p {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    padding: 0 45px;
+    text-align: left;
+    width: auto;
+}
+.entryBody .heroes p a.userInSubject {
+    color: #C90000;
+    font-family: Georgia;
+    font-style: italic;
+    font-weight: normal;
+}
+.entryBody .heroes .arrow {
+    background: url("/i/i-pageBodyHeroesArrow.png") repeat scroll 0 0 transparent;
+    font-size: 0;
+    height: 18px;
+    left: 50%;
+    line-height: 0;
+    margin: -2px 0 0 -8px;
+    overflow: hidden;
+    position: absolute;
+    width: 16px;
+}
+.blog-anons-wrap h3 a span.userInSubject {
+    font: bold italic 14px/16px Georgia !important;
+    color: #333333;
+}
+.blog-anons-wrap h3 a:hover span.userInSubject {
+    color: #ff6633 !important;
+}
+.entryList2 .item h2 a span.userInSubject {
+    color: #333333 !important;
+    text-transform: none;
+    font: italic bold 24px Georgia;
+}
+.entryList2 .item h2 a:hover span.userInSubject {
+    color: #ff6633 !important;
+}
+
+
+/* from old storage.css */
+/* pagination */
+
+.paging-circle {
+    text-align: center;
+    width: auto;
+    margin: 36px 18px 18px;
+}
+.paging-circle * {
+    text-align: left;
+    display: inline-block;
+    line-height:24px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    font-size: 11px;
+    text-align: center;
+    margin-right: 3px;
+}
+.paging-circle .paging-circle-page-selected {
+    background-image: url('/i/paging_black_bg.gif');
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.paging-circle .paging-circle-page {
+    color: #000;
+}
+.paging-circle .paging-circle-page:hover {
+    background-image: url('/i/paging_gray_bg.gif');
+    background-repeat: no-repeat;
+    color: #000 !important;
+}
+.paging-circle .paging-arrow-next, .paging-circle .paging-arrow-prev {
+    width:26px;
+    height:30px;
+
+}
+.paging-circle .paging-arrow-next span, .paging-circle .paging-arrow-prev span {
+    display:none;
+}
+.paging-circle .paging-arrow-next {
+    background: url("/i/new/magazine/i-controls-prev.png") no-repeat 0 3px;
+}
+.paging-circle .paging-arrow-prev {
+    background: url("/i/new/magazine/i-controls-next.png") no-repeat 0 3px;
+}
+
+
+/*allReplicasDay*/
+.wrapper-title-itemReplicas {
+    height:85px;
+    position:relative;
+}
+.wrapper-title-itemReplicas h1{
+    font: normal 30px Arial;
+    padding: 38px 17px 0 40px ;
+}
+.wrapper-title-itemReplicas h1 strong{
+    font: bold 30px Arial;
+}
+.wrapper-title-itemReplicas h1 a{
+    font: normal 30px Arial;
+    color: #003663;
+}
+.link-rss-allReplicasDay {
+    position:absolute !important;
+    top:43px;
+    right:40px;
+}
+.wrapper-item-itemReplicas {
+}
+.itemReplicas {
+    background: url("/i/new/benefit/bg-wrapper-item-itemReplicas.gif") 0 0 repeat-x;
+    padding: 26px 17px 20px 40px;
+}
+.itemReplicas .ava-itemReplicas {
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 25px;
+}
+.itemReplicas .ava-itemReplicas IMG
+{
+    width: 80px;
+    height: 80px;
+}
+.itemReplicas .txt-itemReplicas {
+    float: left;
+    width:570px;
+}
+
+.itemReplicas .date-itemReplicas {
+    font: italic 14px Georgia;
+    color: #777777;
+    padding: 0 0 4px 0;
+}
+.itemReplicas .author-itemReplicas {
+    font: italic bold 18px Georgia;
+    color: #333333;
+}
+.itemReplicas .author-itemReplicas a{
+    font: italic bold 18px Georgia;
+    color: #333333;
+}
+.itemReplicas .text-itemReplicas {
+    font: normal 14px Arial;
+    color: #000;
+}
+.read-all-itemReplicas {
+    font: bold 12px Arial;
+    color: #003663;
+}
+
+.blog_zavtraki_s_Kseniey_Sokolovoi .issue-title-simple .inner {
+	height:134px;
+}

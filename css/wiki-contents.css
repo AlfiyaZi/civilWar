@@ -1,0 +1,303 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../fonts/BEBAS___-webfont.eot');
+    src: url('../fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BEBAS___-webfont.woff') format('woff'),
+         url('../fonts/BEBAS___-webfont.ttf') format('truetype'),
+         url('../fonts/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.l-header .panel{
+	margin:0;
+	padding:0;
+	border:0;
+}
+.content{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.social-links{
+	list-style: none;
+	padding:0;
+}
+.l-mainContent .l-navigationHeader .title{ 
+	margin:0;
+	padding:12px 0 8px 54px;
+}
+.footer-bottom .title{
+	margin:0px;
+	line-height:40px;
+}
+.footer-bottom p{
+	margin:0px;
+	padding:0px;
+}
+.l-navigationHeader .title span, .footer-bottom .title span{
+	line-height:10px;
+	margin:0;
+	padding:0;
+}
+
+.l-mainContent .l-navigationHeader ul.float-right, ul.logged-in, .blog-archives__month-select ul, .box__article ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+
+}
+.news-details, .box--news{
+	font-family: Arial, Helvetica, sans-serif;
+}
+   .news-details a, .news-comment a,.news-preview  a, .message__content a, .header-popup__foot a, .friend-request__content a.username, .remember a.login__forgot, .login__register a, .forum-thread-post-row__author a, .forum-thread-post-row__post-attachment a, .forum-uploaded-filename a, .forum-more-attachment-button-holder a, .post-quote a, .forum-thread-post-row__post-body a, .box__header a.float-right, .blog-article__tag a, .l-low--blog-title a, .blog-article__meta a, a.bottom_button__link,  .box__article ul a, .row__article a, .blog-detail__article-title a, .blog-article__txt a, .blog-posts__title-group a, .container__title a, a.attchments__more-files, .blog-draft__container a, .buton-holder a.link, .feeds .action a, .post-preview a, .blog-preview a, .box--leaderboard a{
+	   color: #0099ff;
+	   text-decoration: none;
+	}
+   .news-details a:hover, .news-comment a:hover, .news-preview  a:hover, .message__content a:hover, .header-popup__foot a:hover, .friend-request__content a.username:hover, .remember a.login__forgot:hover, .login__register a:hover, .forum-thread-post-row__author a:hover, .forum-thread-post-row__post-attachment a:hover, .forum-uploaded-filename a:hover, .forum-more-attachment-button-holder a:hover, .post-quote a:hover, .forum-thread-post-row__post-body a:hover, .box__header a:hover.float-right, .blog-article__tag a:hover, .l-low--blog-title a:hover, .blog-article__meta a:hover, a.bottom_button__link:hover, .row__article a:hover, .blog-detail__article-title a:hover, .blog-article__txt a:hover, .blog-posts__title-group a:hover, .container__title a:hover, a.attchments__more-files:hover, .blog-draft__container a:hover,  .buton-holder a.link:hover, .feeds .action a:hover, .post-preview a:hover, .blog-preview a:hover, .box--leaderboard a:hover{
+	   text-decoration: underline;
+	}
+   .post-area .buton-holder a.link{
+	   padding:5px 0 0 29px;
+   }
+.friend-request .friend-request__content .user-type{
+	margin: 2px 0 10px;
+}
+.notification__content p, .forum-thread-post-row p, .row__article p, .blog-article__tag dl, .blog-article__tag dd, .blog-article__tag dt, .blog-detail__article h3, .blog-posts__row p, .blog-posts__row h3, .blog-posts__row dl, .blog-posts__row dd, .blog-posts__row dt, add-article__attachments p, .add-article__attachments h2{
+	margin:0px;
+	padding:0px;
+}
+p.box--forum-thread__attachment-filename{
+	padding:6px 0;
+}
+.buttons a:hover{
+	text-decoration:none;
+}
+.box--comments, .l-sidebar, .l-row--blog, .l-blog-article, .blog-detail, .box__title{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.news-preview__posted, .news-preview__preview{
+	margin:0;
+	padding:0;
+}
+
+.box .news-comment .content .button-holder .reply{
+	background-position: left 6px;
+}
+.box .news-comment .content .button-holder .like{
+	background-position: left 3px;
+}
+.l-footer ul, .forum-filter ul, ul.search-results, .blog-details__pagination ul, .jqTransformSelectWrapper ul, .blog-draft__container ul,.l-sidebar ul, .flyout__section ul{
+	list-style:none;
+	margin:0;
+	padding:0px;
+}
+.l-sidebar .box--friends__list {
+	margin: 23px 29px 18px;
+	text-align: left;
+}
+
+.sitemap-list li, .sitemap-list li a, .l-row--blog p, .blog-draft__container p, .blog-article-preview__title p, .user__details p, .row__user-name, .action, .post-preview__posted, .news-preview strong, .news-preview__meta, .js-history-user p, .js-history-room p, .row__room p, .row__user-name, .expand__scroll{
+	margin:0;
+	padding:0px;
+	border:0;
+}
+.popup--login{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.is-hidden { display:none;} 
+.box--forum-thread__attachment-item{
+	vertical-align: baseline;
+	margin:0;
+	padding:0;
+}
+
+.forum-thread__status-bar a.forum-gray-button, a.forum-pagination__page, .blog-article__button a, .box__title a, .blog-details__pagination a, .flyout__section a, a.js-trigger-flyout{
+	text-decoration:none;
+}
+.box__title a:hover, .flyout__section a:hover{
+	text-decoration:underline;
+}
+a {
+	color: #0099ff;
+	text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+.content--wiki-details p {
+	margin:0;
+}
+/* Notation Guide */
+.pageheader {
+    border-bottom: 1px solid #888888;
+    padding: 5px 5px 5px 0;
+}
+.pagetitle {
+    color: #000000;
+    font-family: Arial,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.navmenu {
+    border: 1px solid #CCCCCC;
+}
+.menuheading {
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #888888;
+    font-weight: bold;
+    padding: 4px 4px 2px;
+}
+.menuitems {
+    padding: 4px 4px 20px;
+}
+.optionPadded {
+    padding: 2px;
+}
+td, table, tr {
+    color: #000000;
+    font-family: Verdana,arial,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 16px;
+}
+.bottomshadow {
+    background-image: url("/wiki/images/border/border_bottom.gif");
+    background-repeat: repeat-x;
+    height: 12px;
+}
+.grid {
+    border-collapse: collapse;
+    margin: 2px 0 5px;
+}
+.grid th, .wiki-article__content th, .print-content th {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border: 1px solid #CCCCCC;
+    padding: 2px 4px;
+    text-align: center;
+}
+.grid td, .wiki-article__content td, .print-content td {
+    border: 1px solid #CCCCCC;
+    padding: 3px 4px;
+}
+.pagecontent a {
+	color: #0099ff;
+	text-decoration: none;
+}
+.pagecontent a:hover { text-decoration: underline; }
+.helpheading {
+    background-color: #D0D9BD;
+    border-bottom: 1px solid #888888;
+    font-weight: bold;
+    margin: 10px 0 0;
+    padding: 4px;
+    width:990px;
+}
+
+.helpcontent {
+    background-color: #F5F7F1;
+    padding: 4px 4px 20px;
+    width:990px;
+}
+.blockquote {
+    border-left: 1px solid #888888;
+    margin-left: 5px;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.preformatted {
+    border: 1px dashed #888888;
+    font-family: Courier;
+    font-size: 11px;
+    line-height: 13px;
+    margin: 10px;
+}
+.preformattedContent {
+    background-color: #F0F0F0;
+    padding: 3px;
+}
+pre {
+    margin: 5px 5px 5px 15px;
+    overflow: auto;
+    padding: 0;
+    text-align: left;
+}
+.heading1 {
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #888888;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 36px 0 4px;
+    padding: 2px;
+}
+.heading2 {
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #888888;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 27px 0 4px;
+    padding: 2px;
+}
+.heading3 {
+    background-color: #F0F0F0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 21px 0 4px;
+    padding: 2px;
+}
+.heading4 {
+    background-color: #F0F0F0;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 18px 0 4px;
+    padding: 2px;
+}
+.heading5 {
+    background-color: #F0F0F0;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 14px 0 4px;
+    padding: 2px;
+}
+.hweading6 {
+    background-color: #F0F0F0;
+    font-size: 8px;
+    font-weight: bold;
+    line-height: normal;
+    margin: 14px 0 4px;
+    padding: 2px;
+}
+.print-content ul li {
+    background: none;
+    padding: 0;
+    text-indent: 0;
+}
+
+.helpheading i,
+p sup i{
+    background-image: url("../i/wiki-css-sprite.png");
+	}
+
+.helpheading i{
+	background-position:0 -145px;
+	height:16px;
+	width:16px;
+	float:left;
+	margin-right:5px;
+	display:inline-block;
+	}
+	
+p sup i{
+	background-position:0 -242px;
+	height:7px;
+	width:7px;
+	display:inline-block;
+	}

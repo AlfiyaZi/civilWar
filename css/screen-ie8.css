@@ -1,0 +1,37 @@
+.l-msg-mainlist .message__new-message-bar {
+	height: 26px;
+}
+.message__list {
+	top: 210px;
+}
+.user-profile .user-profile__field .user-profile__label {
+	width: 400px;
+}
+.do-search {
+	height: 25px;
+}
+
+.navi-icon em{
+	padding-top:10px;
+	top:70px;
+	width:74px;
+	}
+.l-navigationHeader ul li a.is-active em,
+.l-navigationHeader ul li a.is-active:hover em{
+	top:81px;
+	}
+.l-navigationHeader ul li a.is-active .arrow{
+	top:84px;
+	}
+	.l-navigationHeader .competitions em{
+		left:0;
+		}
+	.l-navigationHeader .achievements em{
+		left:0;
+		}
+		.l-navigationHeader ul li a .arrow{
+			top:83px;
+			}
+		.l-navigationHeader .competitions .arrow{
+			right:-15px;
+			}

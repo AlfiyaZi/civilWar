@@ -1,0 +1,171 @@
+.h-entryBattle {
+    margin-top: 25px;
+  /*margin-bottom: 23px;*/
+}
+.h-entryBattle_total {
+    margin-top: 0;
+}
+.h-entryBattle .entryBattle__side {
+  width: 298px;
+  float: left;
+  text-align: right;
+}
+.h-entryBattle .entryBattle__side-right {
+  text-align: left;
+}
+.h-entryBattle .entryBattle__side-right .entryBattle__user a {
+  float: left;
+  text-align: left;
+}
+.h-entryBattle .entryBattle__side-right .entryBattle__user a img {
+  margin: 0 10px 0 5px;
+}
+.h-entryBattle .entryBattle__side-right .entryBattle__rating span {
+  float: right;
+}
+.h-entryBattle .entryBattle__side-right .entryBattle__rating .entryBattle__number {
+  margin: -3px 10px 0 0;
+}
+.h-entryBattle .entryBattle__user {
+  text-align: right;
+}
+.h-entryBattle .entryBattle__user a {
+  display: block;
+  float: right;
+}
+.h-entryBattle .entryBattle__user a img {
+  margin: 0 5px 0 10px;
+}
+.h-entryBattle .entryBattle__user a + a {
+  max-width: 200px;
+}
+.h-entryBattle .entryBattle__user a.userInSubject {
+    margin-top: 25px;
+  font-size: 15px;
+}
+.h-entryBattle .entryBattle__cloud {
+  border: 4px solid #dadada;
+  padding: 15px 13px 13px 13px;
+  color: #000040;
+  font-size: 15px;
+  margin: 27px 0 0 0;
+  position: relative;
+}
+.h-entryBattle .entryBattle__cloudBorder {
+  background: url('/i/entry/battle/battle_border.png');
+  width: 15px;
+  height: 19px;
+  position: absolute;
+  right: 53px;
+  top: -19px;
+}
+.h-entryBattle .entryBattle__cloudBorder-right {
+  background-position: -15px 0;
+  left: 53px;
+  right: auto;
+}
+.h-entryBattle .entryBattle__cloud h4 {
+  font-family: arial;
+  font-weight: bold;
+}
+.h-entryBattle .entryBattle__cloudText {
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+.h-entryBattle .entryBattle__cloudText p {
+  font-size: 15px;
+  line-height: 19px;
+  text-align: inherit;
+  margin: 0;
+}
+.h-entryBattle .entryBattle__swords {
+  background: url('/i/entry/battle/swords.png');
+  width: 32px;
+  height: 30px;
+  float: left;
+  margin: 25px 5px 0;
+}
+.h-entryBattle .entryBattle__rating {
+  margin-top: 10px;
+  width: 298px;
+  float: left;
+  text-align: right;
+}
+.h-entryBattle .entryBattle__rating span {
+  display: block;
+  float: left;
+}
+.h-entryBattle .entryBattle__rating .entryBattle__like {
+  width: 28px;
+  height: 28px;
+  background: url('/i/entry/battle/like.png') no-repeat center center;
+  background-color: #f17815;
+  cursor: pointer;
+}
+.h-entryBattle_already .entryBattle__rating .entryBattle__like {
+    opacity: 0.3;
+    cursor: default;
+}
+.h-entryBattle .entryBattle__rating .entryBattle__number {
+  font-size: 35px;
+  line-height: 35px;
+  font-family: Arial, sans-serif;
+  margin: -3px 0 0 10px;
+  color: #f17815;
+}
+.h-entryBattle .entryBattle__rating .entryBattle__likeContainer.entryBattle__green .entryBattle__number {
+  color: #22a70f;
+}
+.h-entryBattle .entryBattle__rating .entryBattle__likeContainer.entryBattle__green .entryBattle__like {
+  background-color: #22a70f;
+}
+.h-entryBattle .entryBattle__rating.entryBattle__side-right {
+  margin-left: 42px;
+}
+.h-entryBattle .entryBattle__rating.entryBattle__side-right .entryBattle__like {
+  float: right;
+}
+.h-entryBattle .entryBattle__rating.entryBattle__side-right .entryBattle__number {
+  float: right;
+  margin-right: 10px;
+}
+.h-entryBattle .h-entryBattleTotal {
+  padding-top: 40px;
+  background: url('/i/entry/battle/shadow.png') no-repeat center top;
+}
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal {
+  float: left;
+  width: 180px;
+}
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal a,
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal span {
+  float: left;
+}
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal__number {
+  font-size: 35px;
+  line-height: 35px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin: -3px 0 0 10px;
+}
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal__separator {
+  width: 25px;
+  display: inline-block;
+}
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal-right {
+  width: 198px;
+}
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal-right a,
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal-right span {
+  float: right;
+}
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal-right .entryBattleTotal__number {
+  margin: -3px 10px 0 0;
+}
+.h-entryBattle .h-entryBattleTotal .entryBattleTotal__score {
+  float: left;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 14px;
+}

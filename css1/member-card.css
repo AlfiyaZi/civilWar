@@ -1,0 +1,183 @@
+
+.member-card {
+    position: absolute;
+    width:512px;
+    height:284px;
+    padding: 27px;
+    background:  url("/i/new/thread/shadow.png")  0 0 no-repeat;
+    margin: -142px 0 0 -256px;
+    z-index:999999;
+}
+.load-usercard {
+    background: url("/i/new/thread/shadow.png") no-repeat scroll 0 0 transparent;
+    margin: -142px 0 0 -256px;
+    padding: 27px;
+    position: absolute;
+    height: 283px ;
+    width:511px;
+//width: 564px;
+//height: 337px;
+    z-index: 999999;
+}
+.inner-load-usercard {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 283px ;
+    width:511px;
+}
+.img-load-usercard {
+    height: 31px;
+    left: 270px;
+    position: absolute;
+    top: 150px;
+    width: 31px;
+}
+.w-member-card{
+    position: relative;
+    width:512px;
+    height: 285px;
+    background:#FFF;
+    overflow:hidden;
+}
+.w-member-card .close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+.w-member-card .member-card-avatar{
+    width:80px;
+    height:80px;
+    margin: 16px 10px 0 16px;
+    float:left;
+}
+.w-member-card .member-card-name{
+    font: bold italic 16px/14px Georgia;
+    color: #000;
+    padding: 36px 0 0 0;
+}
+.w-member-card .member-card-description{
+    font: normal 11px/14px Arial;
+    color: #808080;
+    padding: 5px 0 0 0;
+    width:70%;
+}
+.w-member-card .member-card-link{
+
+    text-align: right;
+    margin: 0 10px 0 0;
+    position:absolute;
+    right: 5px;
+    top: 40px;
+}
+.w-member-card .member-card-link * {
+    clear:right;
+    display:block;
+}
+.w-member-card .member-card-goToProfile{
+    text-transform: uppercase;
+    font: normal 9px Arial;
+    color:#08335f;
+}
+
+.w-member-card .member-card-personalBlogSubscribe {
+    text-transform: uppercase;
+    font: normal 9px Arial;
+}
+
+.w-member-card .member-card-personalBlogSubscribeBlue {color:#08335f;}
+
+.w-member-card .member-card-personalBlogSubscribeBlack {
+    color:#000;
+    white-space:nowrap;
+}
+
+.w-member-card .member-card-goToSendMassage{
+    text-transform: uppercase;
+    font: normal 9px Arial;
+    color:#08335f;
+}
+.w-member-card .tabs-member-card{
+    position:relative;
+    overflow:hidden;
+    margin: 16px 0 0 -1px;
+    height:28px;
+}
+.w-member-card .tabs-member-card .item-member-card{
+    position: relative;
+    color: #08335f;
+    font: normal 11px Arial;
+    border: 1px solid #e6e6e6;
+    background: url("/i/new/bg-item-member-card.gif") 0 0 repeat-x;
+    float: left;
+    height:19px;
+    padding:6px 15px 0;
+    cursor: pointer;
+}
+.html4 .w-member-card .tabs-member-card .item-member-card{
+    height:27px;
+}
+.w-member-card .tabs-member-card .active{
+    border-top: 1px solid #c7c7c7;
+    border-left: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    border-bottom:none;
+    background:#f8f8f8;
+    color: #000;
+    height:22px;
+}
+.html4 .w-member-card .tabs-member-card .active{
+    height:29px;
+}
+.w-member-card .tabs {
+    width:100%;
+    height:150px;
+    margin: -1px 0 0 0;
+    border-top: 1px solid #c7c7c7;
+    background:#f8f8f8;
+}
+.w-member-card .tab {
+    background:#f8f8f8;
+    display:none;
+    padding: 5px 16px 18px 16px;
+}
+.w-member-card .active-tab {
+    display:block;
+}
+.w-member-card .tab .comment-item {
+    padding: 0 0 5px 17px;
+    background: url("/i/new/thread/ic-comment.gif") 0 3px no-repeat;
+
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+}
+.w-member-card .tab .comment-item .comment-link{
+    font: normal 12px/14px Arial;
+    color: #08335f;
+}
+.w-member-card .tab .comment-item .comment-link-description{
+    font: normal 10px/14px Arial;
+    color: #898989;
+}
+.w-member-card .tab .comment-item .comment-link-description a{
+    font: normal 10px/14px Arial;
+    color: #898989;
+}
+.w-member-card .tab .comment-item .comment-link-description a.userInSubject{
+    font: italic 10px/14px Arial !important;
+    color: #898989 !important;
+}
+.w-member-card .no-comment p {
+    font: normal 15px Georgia !important;
+    color: #333333 !important;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 40px 0 0 0;
+
+}
+.w-member-card .no-comment p span.userInSubject {
+    font: italic 15px Georgia !important;
+    color: #333333;
+}
+.w-member-card .tabs-member-card li.no-comment {
+    color: #c0c0c0 !important;
+}
